@@ -1,0 +1,925 @@
+Auburn University at Montgomery,1061,21,3.21,95.55,AL,Montgomery,700.1308333333334,T
+Faulkner University,1068,21,3.23,75.76,AL,Montgomery,764.3291666666667,T
+Jacksonville State University,1084,20,3.26,63.69,AL,Jacksonville,809.615,T
+Judson College,1068,20,3.23,56.48,AL,Marion,822.1691666666666,T
+Samford University,1219,28,3.53,83.99,AL,Birmingham,827.3974999999999,T
+University of South Alabama,1162,24,3.42,73.03,AL,Mobile,827.555,T
+Troy University,1094,22,3.28,92.43,AL,Troy,729.2233333333332,T
+Tuskegee University,1016,21,3.12,61.13,AL,Tuskegee,777.1633333333334,T
+University of Alaska Fairbanks,1138,20,3.37,67.01,AK,Fairbanks,831.3775,T
+Arizona State University Campus Immersion,1207,24,3.51,88.37,AZ,Tempe,807.7624999999999,T
+University of Arizona,1220,25,3.54,85.13,AZ,Tucson,825.5583333333333,T
+Prescott College,1141,16,3.38,98.42,AZ,Prescott,739.395,T
+Arizona Christian University,1031,19,3.15,71.47,AZ,Glendale,754.8858333333334,T
+University of Arkansas at Little Rock,1098,23,3.29,56.04,AR,Little Rock,840.9741666666667,T
+University of Arkansas at Pine Bluff,900,16,2.89,59.66,AR,Pine Bluff,714.2141666666666,T
+Arkansas State University,1149,24,3.39,67.19,AR,Jonesboro,836.9991666666667,T
+Baptist Health College Little Rock,1050,20,3.19,50.0,AR,Little Rock,830.6191666666666,T
+University of Central Arkansas,1166,25,3.43,93.78,AR,Conway,767.8858333333334,T
+Central Baptist College,1041,20,3.17,49.81,AR,Conway,825.6941666666667,T
+Henderson State University,1098,22,3.29,74.9,AR,Arkadelphia,784.3941666666667,T
+University of the Ozarks,1070,21,3.23,55.9,AR,Clarksville,824.5758333333333,T
+Williams Baptist University,1088,22,3.27,69.3,AR,Walnut Ridge,795.3658333333334,T
+Southern Arkansas University Main Campus,1120,23,3.33,68.53,AR,Magnolia,815.8275,T
+California Baptist University,1064,21,3.22,80.18,CA,Riverside,748.4883333333335,T
+California Lutheran University,1159,24,3.41,74.39,CA,Thousand Oaks,821.2275,T
+California State University-San Bernardino,988,17,3.07,78.12,CA,San Bernardino,710.6225,T
+California State Polytechnic University-Pomona,1134,22,3.36,64.81,CA,Pomona,835.3966666666666,T
+California State University-Chico,1073,20,3.24,90.17,CA,Chico,724.0133333333334,T
+California State University-Fullerton,1085,20,3.26,67.62,CA,Fullerton,798.1583333333333,T
+California State University-Los Angeles,964,18,3.02,76.48,CA,Los Angeles,701.305,T
+California State University-Northridge,1006,19,3.1,65.81,CA,Northridge,757.2950000000001,T
+California State University-Sacramento,1033,19,3.16,83.09,CA,Sacramento,721.94,T
+Concordia University-Irvine,1128,24,3.35,78.18,CA,Irvine,792.0391666666667,T
+San Diego Christian College,1016,21,3.12,49.67,CA,Santee,811.5433333333334,T
+Dominican University of California,1162,24,3.42,85.74,CA,San Rafael,789.425,T
+Fresno Pacific University,1019,18,3.13,66.94,CA,Fresno,761.9808333333334,T
+California State Polytechnic University-Humboldt,1081,20,3.25,85.14,CA,Arcata,743.0175,T
+University of La Verne,1054,20,3.2,76.25,CA,La Verne,754.45,T
+La Sierra University,1048,19,3.19,56.97,CA,Riverside,809.0425,T
+Mills College,1180,27,3.46,91.14,CA,Oakland,784.215,T
+Pacific Union College,1030,20,3.15,59.17,CA,Angwin,791.4525,T
+Point Loma Nazarene University,1210,27,3.52,83.55,CA,San Diego,824.47,T
+University of Redlands,1135,26,3.36,68.65,CA,Redlands,824.2099999999999,T
+San Francisco State University,1030,19,3.15,84.09,CA,San Francisco,716.6925,T
+San Jose State University,1127,22,3.35,67.37,CA,San Jose,824.1358333333334,T
+Simpson University,1099,24,3.29,59.72,CA,Redding,830.2675,T
+Saint Mary's College of California,1174,25,3.44,77.31,CA,Moraga,821.21,T
+Sonoma State University,1050,20,3.19,89.12,CA,Rohnert Park,713.2591666666666,T
+University of Colorado Denver/Anschutz Medical Campus,1123,23,3.34,66.3,CO,Denver,824.765,T
+Colorado State University-Fort Collins,1199,26,3.49,83.52,CO,Fort Collins,817.1508333333335,T
+Fort Lewis College,1037,18,3.17,91.51,CO,Durango,699.2608333333333,T
+University of Northern Colorado,1099,22,3.29,87.7,CO,Greeley,746.3275,T
+Regis University,1143,24,3.38,78.2,CO,Denver,800.7216666666667,T
+Western Colorado University,1110,22,3.31,88.5,CO,Gunnison,750.0891666666666,T
+University of Bridgeport,1026,18,3.14,70.95,CT,Bridgeport,753.5316666666666,T
+Central Connecticut State University,1062,20,3.22,64.85,CT,New Britain,793.8116666666667,T
+University of New Haven,1147,25,3.39,91.1,CT,West Haven,764.6025000000001,T
+University of Saint Joseph,1073,24,3.24,78.02,CT,West Hartford,760.4633333333335,T
+Delaware State University,923,19,2.93,39.34,DE,Dover,827.8308333333334,T
+Wesley College,933,14,2.95,58.59,DE,Dover,735.9091666666668,T
+Gallaudet University,904,14,2.9,62.62,DC,Washington,707.915,T
+The Baptist College of Florida,1055,22,3.2,75.56,FL,Graceville,756.8533333333335,T
+Edward Waters University,903,14,2.89,57.03,FL,Jacksonville,723.1041666666667,T
+Florida Atlantic University,1147,23,3.39,74.78,FL,Boca Raton,813.5625,T
+Florida College,1107,23,3.31,76.34,FL,Temple Terrace,785.5691666666667,T
+AdventHealth University,1089,24,3.27,90.87,FL,Orlando,730.9891666666667,T
+Jacksonville University,1115,22,3.32,77.74,FL,Jacksonville,785.2833333333333,T
+University of North Florida,1144,23,3.38,79.92,FL,Jacksonville,795.895,T
+Nova Southeastern University,1145,24,3.38,76.24,FL,Fort Lauderdale,807.2683333333332,T
+Palm Beach Atlantic University,1127,23,3.35,91.71,FL,West Palm Beach,751.1158333333334,T
+St. Thomas University,1004,19,3.1,59.62,FL,Miami Gardens,775.1983333333334,T
+Trinity Baptist College,1006,19,3.1,67.48,FL,Jacksonville,752.285,T
+Trinity College of Florida,957,19,3.0,50.48,FL,Trinity,774.4766666666667,T
+Abraham Baldwin Agricultural College,1000,17,3.09,75.99,GA,Tifton,723.5074999999999,T
+Andrew College,993,17,3.08,58.64,GA,Cuthbert,771.9766666666667,T
+Brenau University,1047,19,3.19,92.19,GA,Gainesville,703.0491666666667,T
+Columbus State University,1007,19,3.1,78.32,GA,Columbus,720.0983333333335,T
+Covenant College,1209,28,3.51,97.55,GA,Lookout Mountain,780.8891666666667,T
+Georgia Southwestern State University,1040,21,3.17,73.4,GA,Americus,754.5908333333333,T
+Georgia College & State University,1194,25,3.48,85.94,GA,Milledgeville,806.9766666666667,T
+Georgia Southern University,1083,21,3.26,91.17,GA,Statesboro,726.8416666666667,T
+Georgia State University,1147,23,3.39,82.39,GA,Atlanta,790.7325000000001,T
+Gordon State College,986,17,3.06,78.78,GA,Barnesville,706.7283333333334,T
+LaGrange College,1077,22,3.25,59.67,GA,Lagrange,818.0941666666666,T
+Piedmont University,1085,21,3.26,70.08,GA,Demorest,790.7783333333333,T
+Reinhardt University,1073,21,3.24,98.69,GA,Waleska,698.4533333333334,T
+Savannah State University,925,16,2.94,46.14,GA,Savannah,769.3449999999999,T
+Shorter University,1071,20,3.23,70.93,GA,Rome,779.8191666666668,T
+Thomas University,881,18,2.85,34.52,GA,Thomasville,818.3108333333334,T
+Valdosta State University,1072,21,3.24,78.45,GA,Valdosta,758.84,T
+Wesleyan College,1052,21,3.2,59.81,GA,Macon,803.1033333333335,T
+University of West Georgia,1012,19,3.11,77.62,GA,Carrollton,725.1125,T
+Young Harris College,1065,19,3.22,65.03,GA,Young Harris,794.2716666666666,T
+Chaminade University of Honolulu,1056,20,3.2,88.97,HI,Honolulu,716.9566666666668,T
+University of Hawaii at Hilo,1046,18,3.18,73.83,HI,Hilo,756.5483333333334,T
+University of Hawaii at Manoa,1181,23,3.46,83.69,HI,Honolulu,806.8983333333333,T
+Hawaii Pacific University,1067,20,3.23,81.4,HI,Honolulu,747.0758333333333,T
+Boise State University,1135,23,3.36,77.49,ID,Boise,797.6899999999999,T
+University of Idaho,1116,23,3.33,74.44,ID,Moscow,796.7641666666668,T
+Northwest Nazarene University,1098,20,3.29,76.83,ID,Nampa,778.6041666666667,T
+Brigham Young University-Idaho,1132,22,3.36,97.01,ID,Rexburg,738.13,T
+School of the Art Institute of Chicago,1161,27,3.42,77.78,IL,Chicago,812.9716666666666,T
+Aurora University,1066,20,3.22,83.95,IL,Aurora,737.845,T
+Blackburn College,1006,19,3.1,55.18,IL,Carlinville,789.1850000000001,T
+Chicago State University,887,18,2.86,46.42,IL,Chicago,745.8583333333333,T
+Concordia University-Chicago,1099,21,3.29,78.54,IL,River Forest,773.8075,T
+Eastern Illinois University,1058,21,3.21,55.54,IL,Charleston,819.1608333333334,T
+Elmhurst University,1096,23,3.28,65.53,IL,Elmhurst,810.59,T
+Eureka College,1026,19,3.14,61.36,IL,Eureka,782.3016666666666,T
+Governors State University,956,19,3.0,47.84,IL,University Park,782.0633333333334,T
+Greenville University,1014,19,3.12,59.21,IL,Greenville,782.2566666666668,T
+University of Illinois Chicago,1159,26,3.41,72.63,IL,Chicago,826.5075,T
+Benedictine University,1097,23,3.29,60.99,IL,Lisle,825.7908333333334,T
+Illinois State University,1140,24,3.37,81.31,IL,Normal,789.1441666666667,T
+Judson University,1020,20,3.13,57.01,IL,Elgin,792.1041666666666,T
+Lewis University,1139,24,3.37,66.06,IL,Romeoville,834.5608333333334,T
+McKendree University,1107,22,3.31,70.08,IL,Lebanon,804.3491666666666,T
+Millikin University,1097,24,3.29,71.15,IL,Decatur,795.3108333333333,T
+Monmouth College,1163,24,3.42,69.43,IL,Monmouth,838.6883333333333,T
+Northeastern Illinois University,915,18,2.92,60.7,IL,Chicago,719.8366666666667,T
+Olivet Nazarene University,1101,23,3.3,66.57,IL,Bourbonnais,811.6316666666667,T
+Principia College,1143,26,3.38,93.24,IL,Elsah,755.6016666666667,T
+Quincy University,1106,21,3.31,67.13,IL,Quincy,812.8658333333334,T
+Rockford University,1009,18,3.11,50.82,IL,Rockford,804.5124999999999,T
+Roosevelt University,1043,23,3.18,76.52,IL,Chicago,747.4783333333335,T
+Dominican University,1072,22,3.24,76.46,IL,River Forest,764.8100000000001,T
+University of St Francis,1096,23,3.28,60.09,IL,Joliet,826.9100000000001,T
+Saint Xavier University,1048,21,3.19,79.0,IL,Chicago,742.9525,T
+University of Illinois Springfield,1107,24,3.31,77.33,IL,Springfield,782.5991666666666,T
+Southern Illinois University-Carbondale,1096,23,3.28,91.78,IL,Carbondale,731.84,T
+Southern Illinois University-Edwardsville,1154,24,3.4,85.05,IL,Edwardsville,786.3333333333334,T
+Trinity Christian College,1103,24,3.3,63.66,IL,Palos Heights,821.0283333333333,T
+Trinity International University-Illinois,1079,23,3.25,85.92,IL,Deerfield,740.0108333333333,T
+Western Illinois University,1011,20,3.11,66.96,IL,Macomb,756.7591666666666,T
+Anderson University,1071,21,3.23,66.5,IN,Anderson,793.1091666666667,T
+Franklin College,1076,21,3.24,76.07,IN,Franklin,767.3133333333335,T
+Goshen College,1084,25,3.26,92.38,IN,Goshen,723.545,T
+Grace College and Theological Seminary,1134,25,3.36,74.65,IN,Winona Lake,805.8766666666666,T
+Huntington University,1090,21,3.27,77.67,IN,Huntington,770.9225,T
+Purdue University Fort Wayne,1090,21,3.27,82.78,IN,Fort Wayne,755.5925,T
+Indiana University-Purdue University-Indianapolis,1102,22,3.3,78.54,IN,Indianapolis,776.055,T
+University of Indianapolis,1076,20,3.24,84.48,IN,Indianapolis,742.0833333333334,T
+University of Southern Indiana,1089,22,3.27,93.87,IN,Evansville,721.9891666666667,T
+Indiana University-South Bend,1039,19,3.17,86.87,IN,South Bend,713.8475,T
+Indiana University-Northwest,1005,19,3.1,81.68,IN,Gary,709.3516666666667,T
+Indiana University-Southeast,1055,20,3.2,85.41,IN,New Albany,727.3033333333334,T
+Indiana University-East,1043,20,3.18,67.32,IN,Richmond,775.0783333333334,T
+Indiana Wesleyan University-Marion,1134,24,3.36,91.47,IN,Marion,755.4166666666666,T
+Oakland City University,1021,19,3.13,63.31,IN,Oakland City,773.5375,T
+University of Saint Francis-Fort Wayne,1075,21,3.24,99.05,IN,Fort Wayne,698.0400000000001,T
+Saint Mary-of-the-Woods College,1026,18,3.14,71.23,IN,Saint Mary of the Woods,752.6916666666666,T
+Saint Mary's College,1189,26,3.47,81.51,IN,Notre Dame,817.3525000000002,T
+Trine University,1130,22,3.35,78.94,IN,Angola,790.4258333333333,T
+Valparaiso University,1199,26,3.49,86.63,IN,Valparaiso,807.8208333333334,T
+Central College,1116,21,3.33,63.68,IA,Pella,829.0441666666668,T
+Clarke University,1085,21,3.26,89.2,IA,Dubuque,733.4183333333333,T
+Cornell College,1224,26,3.54,82.41,IA,Mount Vernon,835.0516666666667,T
+University of Dubuque,1010,18,3.11,78.63,IA,Dubuque,721.4158333333334,T
+Emmaus Bible College,1117,24,3.33,92.11,IA,Dubuque,744.0875,T
+Faith Baptist Bible College and Theological Seminary,1152,24,3.4,67.6,IA,Ankeny,838.0166666666667,T
+Graceland University-Lamoni,1043,20,3.18,68.07,IA,Lamoni,772.8283333333335,T
+Iowa State University,1197,25,3.49,88.42,IA,Ames,801.7841666666668,T
+Iowa Wesleyan University,959,16,3.01,71.19,IA,Mount Pleasant,714.2608333333333,T
+University of Iowa,1229,26,3.55,84.28,IA,Iowa City,832.3558333333332,T
+Mercy College of Health Sciences,1105,22,3.3,91.67,IA,Des Moines,737.665,T
+University of Northern Iowa,1149,22,3.39,78.88,IA,Cedar Falls,801.9291666666667,T
+Northwestern College,1146,22,3.39,73.77,IA,Orange City,816.2591666666668,T
+Saint Ambrose University,1110,22,3.31,73.84,IA,Davenport,794.0691666666667,T
+Simpson College,1149,22,3.39,86.62,IA,Indianola,778.7091666666666,T
+Upper Iowa University,1035,19,3.16,65.3,IA,Fayette,775.9766666666667,T
+Waldorf University,1018,19,3.13,61.06,IA,Forest City,779.2875,T
+Wartburg College,1114,21,3.32,71.72,IA,Waverly,803.01,T
+Baker University,1102,22,3.3,93.41,KS,Baldwin City,731.4449999999999,T
+Benedictine College,1213,27,3.52,96.78,KS,Atchison,785.7800000000001,T
+Bethany College,1035,20,3.16,68.32,KS,Lindsborg,766.9166666666667,T
+Bethel College-North Newton,1031,18,3.15,61.32,KS,North Newton,785.3358333333333,T
+Friends University,1081,23,3.25,57.54,KS,Wichita,825.8175,T
+University of Kansas,1227,26,3.55,90.93,KS,Lawrence,811.7391666666666,T
+Ottawa University-Ottawa,1012,19,3.11,70.3,KS,Ottawa,747.0725,T
+University of Saint Mary,1020,21,3.13,59.56,KS,Leavenworth,784.4541666666667,T
+Southwestern College,1020,18,3.13,56.24,KS,Winfield,794.4141666666666,T
+Tabor College,1047,19,3.19,46.39,KS,Hillsboro,840.4491666666668,T
+Wichita State University,1167,23,3.43,79.63,KS,Wichita,810.6691666666667,T
+Asbury University,1203,25,3.5,75.15,KY,Wilmore,844.8416666666667,T
+Bellarmine University,1196,26,3.49,82.37,KY,Louisville,819.6008333333334,T
+University of the Cumberlands,1095,21,3.28,81.44,KY,Williamsburg,762.5266666666665,T
+Eastern Kentucky University,1116,22,3.33,97.95,KY,Richmond,726.2341666666667,T
+Kentucky Wesleyan College,1083,21,3.26,60.19,KY,Owensboro,819.7816666666666,T
+University of Kentucky,1223,27,3.54,96.36,KY,Lexington,792.8683333333333,T
+Midway University,1084,21,3.26,73.06,KY,Midway,781.5049999999999,T
+Murray State University,1179,25,3.45,77.03,KY,Murray,824.9641666666666,T
+Northern Kentucky University,1144,24,3.38,87.03,KY,Highland Heights,774.5649999999999,T
+The Southern Baptist Theological Seminary,1105,24,3.3,77.26,KY,Louisville,780.895,T
+Transylvania University,1267,28,3.63,92.12,KY,Lexington,831.4825,T
+Union College,1035,19,3.16,57.33,KY,Barbourville,799.8866666666667,T
+Western Kentucky University,1130,23,3.35,97.75,KY,Bowling Green,733.9958333333334,T
+Dillard University,1044,20,3.18,65.31,LA,New Orleans,781.4416666666666,T
+Louisiana State University-Alexandria,1042,21,3.18,63.54,LA,Alexandria,786.085,T
+Louisiana State University-Shreveport,1133,23,3.36,82.68,LA,Shreveport,781.4533333333334,T
+Louisiana College,1082,21,3.26,71.16,LA,Pineville,786.5383333333333,T
+Loyola University New Orleans,1160,25,3.41,72.39,LA,New Orleans,827.5608333333334,T
+McNeese State University,1136,23,3.37,63.3,LA,Lake Charles,841.8408333333334,T
+University of New Orleans,1088,23,3.27,82.91,LA,New Orleans,754.5358333333334,T
+Nicholls State University,1104,21,3.3,93.29,LA,Thibodaux,732.4716666666666,T
+University of Louisiana at Monroe,1118,23,3.33,77.98,LA,Monroe,786.8108333333334,T
+Northwestern State University of Louisiana,1050,20,3.19,94.85,LA,Natchitoches,696.0691666666667,T
+Southeastern Louisiana University,1105,22,3.3,97.37,LA,Hammond,720.5649999999999,T
+Southern University and A & M College,975,17,3.04,43.45,LA,Baton Rouge,806.5566666666667,T
+University of Louisiana at Lafayette,1148,25,3.39,67.28,LA,Lafayette,836.3958333333334,T
+Xavier University of Louisiana,1112,24,3.32,80.62,LA,New Orleans,775.6433333333333,T
+Maine Maritime Academy,1085,21,3.26,52.14,ME,Castine,844.5983333333334,T
+Saint Joseph's College of Maine,1081,22,3.25,86.73,ME,Standish,738.2475,T
+University of Southern Maine,1062,21,3.22,87.93,ME,Portland,724.5716666666667,T
+University of Baltimore,1018,25,3.13,79.93,MD,Baltimore,722.6775,T
+Coppin State University,902,19,2.89,40.2,MD,Baltimore,773.2608333333334,T
+Frostburg State University,1024,19,3.14,73.61,MD,Frostburg,744.885,T
+University of Maryland Eastern Shore,927,16,2.94,62.03,MD,Princess Anne,722.3416666666667,T
+Morgan State University,988,17,3.07,73.59,MD,Baltimore,724.2125,T
+Mount St. Mary's University,1082,24,3.26,80.45,MD,Emmitsburg,758.6683333333333,T
+St. Mary's College of Maryland,1190,26,3.48,79.03,MD,St. Mary's City,826.3733333333333,T
+Towson University,1122,23,3.34,78.8,MD,Towson,786.9316666666667,T
+Boston Baptist College,1050,20,3.19,77.78,MA,Boston,747.2791666666666,T
+Bay Path University,1074,28,3.24,78.31,MA,Longmeadow,759.9266666666667,T
+Becker College,1086,25,3.26,82.96,MA,Worcester,752.4716666666666,T
+Eastern Nazarene College,1030,17,3.15,64.38,MA,Quincy,775.8225,T
+Gordon College,1159,26,3.41,68.27,MA,Wenham,839.5875000000001,T
+MCPHS University,1096,23,3.28,91.12,MA,Boston,733.82,T
+Simmons University,1168,26,3.43,82.55,MA,Boston,802.2425000000001,T
+University of Massachusetts-Dartmouth,1094,24,3.28,76.18,MA,North Dartmouth,777.9733333333334,T
+Wentworth Institute of Technology,1192,25,3.48,93.54,MA,Boston,783.51,T
+Worcester State University,1097,23,3.29,81.03,MA,Worcester,765.6708333333333,T
+Adrian College,1043,21,3.18,61.21,MI,Adrian,793.4083333333334,T
+Albion College,1062,23,3.22,74.44,MI,Albion,765.0416666666667,T
+Aquinas College,1123,21,3.34,70.91,MI,Grand Rapids,810.935,T
+Central Michigan University,1113,23,3.32,68.67,MI,Mount Pleasant,811.8266666666667,T
+Concordia University Ann Arbor,1105,21,3.3,60.96,MI,Ann Arbor,829.795,T
+University of Detroit Mercy,1165,25,3.42,79.5,MI,Detroit,809.145,T
+Eastern Michigan University,1098,22,3.29,75.18,MI,Ypsilanti,783.5541666666668,T
+Ferris State University,1058,21,3.21,82.46,MI,Big Rapids,738.4008333333334,T
+Cornerstone University,1067,22,3.23,86.97,MI,Grand Rapids,730.3658333333334,T
+Hope College,1219,26,3.53,77.83,MI,Holland,845.8774999999999,T
+Lake Superior State University,1050,21,3.19,69.5,MI,Sault Ste Marie,772.1191666666666,T
+Madonna University,1029,21,3.15,68.37,MI,Livonia,763.5191666666666,T
+University of Michigan-Flint,1086,22,3.26,77.42,MI,Flint,769.0916666666666,T
+Northwood University,1093,21,3.28,76.8,MI,Midland,775.78,T
+Oakland University,1110,24,3.31,81.1,MI,Rochester Hills,772.2891666666667,T
+Saginaw Valley State University,1086,22,3.26,89.46,MI,University Center,732.9716666666666,T
+Spring Arbor University,1100,23,3.29,63.3,MI,Spring Arbor,819.8608333333334,T
+Wayne State University,1112,23,3.32,69.01,MI,Detroit,810.4733333333334,T
+Western Michigan University,1129,23,3.35,84.94,MI,Kalamazoo,772.0925,T
+Augsburg University,1050,19,3.19,73.12,MN,Minneapolis,761.2591666666666,T
+Bemidji State University,1105,19,3.3,69.44,MN,Bemidji,804.355,T
+Bethel University,1203,24,3.5,86.63,MN,Saint Paul,810.4016666666668,T
+Martin Luther College,1185,24,3.47,87.31,MN,New Ulm,798.6191666666666,T
+Hamline University,1147,22,3.39,68.95,MN,Saint Paul,831.0525,T
+Minnesota State University-Mankato,1105,20,3.3,67.26,MN,Mankato,810.895,T
+University of Minnesota-Duluth,1169,22,3.43,78.55,MN,Duluth,814.5758333333334,T
+Minnesota State University Moorhead,1106,22,3.31,66.05,MN,Moorhead,816.1058333333334,T
+North Central University,1077,21,3.25,92.99,MN,Minneapolis,718.1341666666666,T
+Oak Hills Christian College,1009,16,3.11,62.7,MN,Bemidji,768.8725,T
+College of Saint Benedict,1201,24,3.5,84.01,MN,Saint Joseph,817.595,T
+Saint Cloud State University,1087,21,3.27,73.22,MN,Saint Cloud,783.2725,T
+Saint Johns University,1193,23,3.48,81.38,MN,Collegeville,820.3233333333334,T
+University of St Thomas,1249,25,3.6,87.4,MN,Saint Paul,835.9,T
+St Catherine University,1122,22,3.34,76.15,MN,Saint Paul,794.8816666666667,T
+Southwest Minnesota State University,1048,19,3.19,80.6,MN,Marshall,738.1525,T
+Winona State University,1118,21,3.33,75.18,MN,Winona,795.2108333333333,T
+University of Mississippi,1220,27,3.54,88.02,MS,University,816.8883333333333,T
+Mississippi University for Women,1106,21,3.31,99.03,MS,Columbus,717.1658333333334,T
+Southeastern Baptist College,930,16,2.95,56.1,MS,Laurel,742.3791666666668,T
+University of Southern Mississippi,1135,24,3.36,96.33,MS,Hattiesburg,741.17,T
+Tougaloo College,990,18,3.07,71.2,MS,Tougaloo,732.0491666666666,T
+Central Methodist University-College of Liberal Arts and Sciences,1056,20,3.2,95.34,MO,Fayette,697.8466666666668,T
+University of Central Missouri,1120,21,3.33,63.59,MO,Warrensburg,830.6475,T
+Conception Seminary College,1255,25,3.61,100.0,MO,Conception,801.3475000000001,T
+Cottey College,1104,22,3.3,60.54,MO,Nevada,830.7216666666666,T
+Fontbonne University,1050,20,3.19,85.36,MO,Saint Louis,724.5391666666666,T
+Hannibal-LaGrange University,1120,21,3.33,64.63,MO,Hannibal,827.5275,T
+Lindenwood University,1111,22,3.32,92.13,MO,Saint Charles,740.78,T
+Missouri Baptist University,1047,20,3.19,64.84,MO,Saint Louis,785.0991666666667,T
+Missouri Southern State University,1087,21,3.27,98.33,MO,Joplin,707.9425,T
+Missouri Valley College,956,17,3.0,62.18,MO,Marshall,739.0433333333334,T
+Northwest Missouri State University,1104,21,3.3,80.11,MO,Maryville,772.0116666666665,T
+Rockhurst University,1167,24,3.43,72.89,MO,Kansas City,830.8891666666666,T
+Saint Louis Christian College,1020,20,3.13,70.27,MO,Florissant,752.3241666666665,T
+Southwest Baptist University,1110,22,3.31,73.35,MO,Bolivar,795.5391666666667,T
+Stephens College,1103,22,3.3,64.29,MO,Columbia,819.1383333333333,T
+Missouri State University-Springfield,1183,24,3.46,86.57,MO,Springfield,798.9250000000001,T
+Westminster College,1136,22,3.37,97.43,MO,Fulton,739.4508333333334,T
+Montana Technological University,1192,23,3.48,97.27,MT,Butte,772.32,T
+Montana State University,1205,24,3.51,80.77,MT,Bozeman,829.8958333333333,T
+The University of Montana,1162,23,3.42,95.78,MT,Missoula,759.305,T
+Rocky Mountain College,1071,20,3.23,71.17,MT,Billings,779.0991666666667,T
+The University of Montana-Western,1001,18,3.09,51.86,MT,Dillon,796.2308333333334,T
+Yellowstone Christian College,1010,19,3.11,75.0,MT,Billings,732.3058333333333,T
+Concordia University-Nebraska,1138,24,3.37,75.83,NE,Seward,804.9175,T
+Hastings College,1117,23,3.33,65.95,NE,Hastings,822.5675,T
+University of Nebraska at Kearney,1130,22,3.35,88.41,NE,Kearney,762.0158333333334,T
+Nebraska Methodist College of Nursing & Allied Health,1155,23,3.4,91.86,NE,Omaha,766.2366666666667,T
+Midland University,1068,20,3.23,50.79,NE,Fremont,839.2391666666666,T
+University of Nebraska at Omaha,1115,22,3.32,82.29,NE,Omaha,771.6333333333333,T
+Union College,1072,21,3.24,97.6,NE,Lincoln,701.3900000000001,T
+York College,1033,19,3.16,66.13,NE,York,772.82,T
+University of Nevada-Las Vegas,1124,22,3.34,81.02,NV,Las Vegas,780.9383333333334,T
+University of Nevada-Reno,1154,23,3.4,87.3,NV,Reno,779.5833333333334,T
+Sierra Nevada University,1036,20,3.16,46.31,NV,Incline Village,833.28,T
+University of New Hampshire-Main Campus,1197,27,3.49,84.81,NH,Durham,812.6141666666668,T
+Georgian Court University,1039,19,3.17,80.9,NJ,Lakewood,731.7574999999999,T
+Rowan University,1150,25,3.39,78.01,NJ,Glassboro,804.8725000000001,T
+Monmouth University,1130,24,3.35,78.93,NJ,West Long Branch,790.4558333333334,T
+Ramapo College of New Jersey,1140,24,3.37,66.84,NJ,Mahwah,832.5541666666668,T
+Rider University,1124,23,3.34,75.66,NJ,Lawrenceville,797.0183333333333,T
+Rutgers University-Camden,1075,20,3.24,76.28,NJ,Camden,766.35,T
+Rutgers University-Newark,1088,20,3.27,74.09,NJ,Newark,780.9958333333334,T
+Stockton University,1108,23,3.31,77.31,NJ,Galloway,782.9925000000001,T
+Eastern New Mexico University-Main Campus,1051,18,3.19,50.6,NM,Portales,829.1524999999999,T
+New Mexico Institute of Mining and Technology,1263,26,3.62,96.58,NM,Socorro,815.5216666666668,T
+University of New Mexico-Main Campus,1101,21,3.3,96.34,NM,Albuquerque,722.3216666666667,T
+New Mexico State University-Main Campus,1050,20,3.19,62.67,NM,Las Cruces,792.6091666666666,T
+Adelphi University,1162,24,3.42,74.61,NY,Garden City,757.8149999999999,T
+Alfred University,1102,23,3.3,64.11,NY,Alfred,754.3449999999999,T
+Clarkson University,1259,26,3.62,77.99,NY,Potsdam,804.9583333333334,T
+CUNY Brooklyn College,1105,27,3.3,49.74,NY,Brooklyn,798.4549999999999,T
+CUNY City College,1164,28,3.42,50.54,NY,New York,830.6916666666667,T
+CUNY Queens College,1122,26,3.34,53.49,NY,Queens,797.8616666666667,T
+Elmira College,1103,20,3.3,83.13,NY,Elmira,697.6183333333333,T
+Le Moyne College,1165,23,3.42,74.74,NY,Syracuse,758.425,T
+Long Island University,1194,26,3.48,85.01,NY,Brookville,744.7666666666667,T
+The New School,1269,30,3.64,69.1,NY,New York,837.4566666666667,T
+New York Institute of Technology,1190,26,3.48,74.68,NY,Old Westbury,774.4233333333334,T
+Pace University,1163,26,3.42,82.87,NY,New York,733.3683333333333,T
+Pratt Institute-Main,1245,28,3.59,65.94,NY,Brooklyn,832.6991666666668,T
+Roberts Wesleyan College,1146,23,3.39,75.81,NY,Rochester,745.1391666666668,T
+St Bonaventure University,1151,25,3.4,76.31,NY,Saint Bonaventure,746.5533333333333,T
+St. Joseph's University-New York,1120,24,3.33,70.67,NY,Brooklyn,744.4075,T
+Saint John Fisher College,1161,23,3.42,68.41,NY,Rochester,776.0816666666666,T
+St. John's University-New York,1198,27,3.49,75.07,NY,Queens,777.1675,T
+University at Buffalo,1230,26,3.56,66.95,NY,Buffalo,820.9266666666666,T
+SUNY College of Environmental Science and Forestry,1237,26,3.57,60.17,NY,Syracuse,844.8475,T
+SUNY Polytechnic Institute,1177,26,3.45,73.3,NY,Utica,770.4875000000001,T
+SUNY Brockport,1089,21,3.27,58.11,NY,Brockport,764.2691666666667,T
+SUNY Cortland,1164,22,3.42,52.2,NY,Cortland,825.7116666666667,T
+State University of New York at New Paltz,1187,23,3.47,62.02,NY,New Paltz,810.1558333333335,T
+SUNY Oneonta,1034,21,3.16,62.95,NY,Oneonta,717.6933333333334,T
+SUNY at Purchase College,1213,30,3.52,73.7,NY,Purchase,790.0200000000001,T
+SUNY College at Plattsburgh,1078,21,3.25,61.03,NY,Plattsburgh,749.3475,T
+Appalachian State University,1181,24,3.46,79.51,NC,Boone,819.4383333333334,T
+Barton College,1030,18,3.15,42.44,NC,Wilson,841.6424999999999,T
+Belmont Abbey College,1085,21,3.26,80.1,NC,Belmont,760.7183333333334,T
+Campbell University,1115,21,3.32,81.29,NC,Buies Creek,774.6333333333333,T
+Catawba College,1038,18,3.17,52.12,NC,Salisbury,817.7641666666667,T
+East Carolina University,1100,20,3.29,87.92,NC,Greenville,746.0008333333334,T
+Gardner-Webb University,1074,20,3.24,77.95,NC,Boiling Springs,761.0066666666668,T
+Greensboro College,1008,17,3.11,77.61,NC,Greensboro,723.8091666666666,T
+Guilford College,1059,20,3.21,78.01,NC,Greensboro,752.0841666666668,T
+High Point University,1182,25,3.46,77.05,NC,High Point,827.1516666666668,T
+Johnson C Smith University,883,14,2.85,49.2,NC,Charlotte,734.9375,T
+Lees-McRae College,1068,20,3.23,73.29,NC,Banner Elk,771.7391666666666,T
+Meredith College,1111,22,3.32,71.62,NC,Raleigh,802.31,T
+Methodist University,1050,19,3.19,75.88,NC,Fayetteville,752.9791666666666,T
+Montreat College,1047,20,3.19,71.2,NC,Montreat,766.0191666666667,T
+University of Mount Olive,1011,18,3.11,61.91,NC,Mount Olive,771.9091666666666,T
+North Carolina A & T State University,1041,18,3.17,56.71,NC,Greensboro,804.9941666666667,T
+University of North Carolina at Asheville,1185,25,3.47,79.42,NC,Asheville,822.2891666666667,T
+University of North Carolina at Charlotte,1200,24,3.5,79.53,NC,Charlotte,830.7016666666667,T
+University of North Carolina at Greensboro,1093,21,3.28,87.54,NC,Greensboro,743.56,T
+North Carolina Wesleyan College,938,16,2.96,47.59,NC,Rocky Mount,771.8233333333334,T
+William Peace University,1053,19,3.2,61.39,NC,Raleigh,798.6966666666667,T
+Pfeiffer University,1008,15,3.11,75.84,NC,Misenheimer,729.1191666666666,T
+Queens University of Charlotte,1150,26,3.39,68.43,NC,Charlotte,833.6125000000001,T
+Mid-Atlantic Christian University,1004,18,3.1,43.12,NC,Elizabeth City,824.6983333333334,T
+Salem College,1061,20,3.21,84.63,NC,Winston-Salem,732.8908333333334,T
+Warren Wilson College,1220,27,3.54,84.84,NC,Swannanoa,826.4283333333333,T
+Winston-Salem State University,971,17,3.03,72.52,NC,Winston-Salem,716.7658333333334,T
+University of Jamestown,1088,20,3.27,71.9,ND,Jamestown,787.5658333333333,T
+University of Mary,1143,23,3.38,71.68,ND,Bismarck,820.2816666666666,T
+Mayville State University,1065,19,3.22,53.03,ND,Mayville,830.2716666666666,T
+Minot State University,1070,21,3.23,77.33,ND,Minot,760.2858333333334,T
+University of North Dakota,1163,23,3.42,86.75,ND,Grand Forks,786.7283333333334,T
+North Dakota State University-Main Campus,1150,22,3.39,94.1,ND,Fargo,756.6025000000001,T
+Trinity Bible College and Graduate School,1095,21,3.28,100.0,ND,Ellendale,706.8466666666666,T
+Valley City State University,1030,19,3.15,80.6,ND,Valley City,727.1625,T
+University of Akron Main Campus,1118,22,3.33,73.04,OH,Akron,801.6308333333334,T
+University of Akron Wayne College,1046,20,3.18,89.23,OH,Orrville,710.3483333333334,T
+Ashland University,1105,21,3.3,74.35,OH,Ashland,789.625,T
+Aultman College of Nursing and Health Sciences,1105,20,3.3,61.98,OH,Canton,826.735,T
+Baldwin Wallace University,1176,23,3.45,69.82,OH,Berea,845.5941666666668,T
+Bowling Green State University-Main Campus,1142,22,3.38,75.3,OH,Bowling Green,809.0883333333334,T
+The Christ College of Nursing and Health Sciences,1069,21,3.23,70.84,OH,Cincinnati,779.4225,T
+Cleveland State University,1088,23,3.27,93.6,OH,Cleveland,722.4658333333334,T
+University of Dayton,1233,26,3.56,81.11,OH,Dayton,844.4466666666666,T
+Defiance College,1005,18,3.1,54.92,OH,Defiance,789.6316666666668,T
+The University of Findlay,1144,23,3.38,79.59,OH,Findlay,796.885,T
+Heidelberg University,1098,21,3.29,81.06,OH,Tiffin,765.9141666666668,T
+John Carroll University,1198,25,3.49,87.84,OH,University Heights,803.8575000000001,T
+Kent State University at Kent,1141,23,3.38,84.43,OH,Kent,781.365,T
+Lake Erie College,1058,18,3.21,63.95,OH,Painesville,793.9308333333333,T
+Lourdes University,1019,19,3.13,77.82,OH,Sylvania,729.3408333333334,T
+Malone University,1113,21,3.32,74.27,OH,Canton,795.0266666666666,T
+Marietta College,1120,22,3.33,73.91,OH,Marietta,799.6875,T
+Miami University-Oxford,1280,28,3.66,91.95,OH,Oxford,840.0683333333334,T
+Mount Carmel College of Nursing,1050,20,3.19,80.82,OH,Columbus,738.1591666666667,T
+University of Mount Union,1107,22,3.31,77.41,OH,Alliance,782.3591666666666,T
+Mount Vernon Nazarene University,1131,22,3.36,72.48,OH,Mount Vernon,811.3866666666667,T
+Mount Saint Joseph University,1108,22,3.31,60.15,OH,Cincinnati,834.4725,T
+Ohio University-Main Campus,1166,23,3.43,87.49,OH,Athens,786.7558333333334,T
+Otterbein University,1158,23,3.41,76.06,OH,Westerville,815.8841666666668,T
+University of Toledo,1135,22,3.36,94.68,OH,Toledo,746.12,T
+Ursuline College,1067,20,3.23,80.79,OH,Pepper Pike,748.9058333333334,T
+Walsh University,1126,21,3.35,76.56,OH,North Canton,796.2325,T
+Wilmington College,1083,20,3.26,72.72,OH,Wilmington,782.1916666666667,T
+Wright State University-Main Campus,1099,21,3.29,95.64,OH,Dayton,722.5075,T
+Wright State University-Lake Campus,1085,20,3.26,99.61,OH,Celina,702.1883333333333,T
+Xavier University,1198,25,3.49,81.22,OH,Cincinnati,823.7175000000001,T
+Youngstown State University,1083,20,3.26,69.93,OH,Youngstown,790.5616666666667,T
+Bacone College,944,17,2.98,47.28,OK,Muskogee,777.2483333333333,T
+Oklahoma Wesleyan University,1056,19,3.2,82.66,OK,Bartlesville,735.8866666666668,T
+University of Central Oklahoma,1085,21,3.26,80.49,OK,Edmond,759.5483333333333,T
+East Central University,1079,21,3.25,96.45,OK,Ada,708.4208333333332,T
+Northwestern Oklahoma State University,1021,18,3.13,70.26,OK,Alva,752.6875,T
+University of Oklahoma-Norman Campus,1233,26,3.56,83.38,OK,Norman,837.6366666666667,T
+Oral Roberts University,1133,23,3.36,78.39,OK,Tulsa,794.3233333333333,T
+University of Science and Arts of Oklahoma,917,19,2.92,35.75,OK,Chickasha,835.3533333333334,T
+Southeastern Oklahoma State University,1040,19,3.17,78.59,OK,Durant,739.0208333333334,T
+Southwestern Oklahoma State University,1065,20,3.22,93.2,OK,Weatherford,709.7616666666667,T
+George Fox University,1138,23,3.37,90.91,OR,Newberg,759.6775,T
+Linfield University-McMinnville Campus,1143,22,3.38,80.18,OR,McMinnville,794.7816666666668,T
+Bushnell University,1089,19,3.27,68.19,OR,Eugene,799.0291666666668,T
+Oregon Institute of Technology,1117,21,3.33,95.13,OR,Klamath Falls,735.0275,T
+Oregon State University,1204,25,3.5,82.21,OR,Corvallis,823.995,T
+University of Oregon,1207,26,3.51,83.81,OR,Eugene,821.4424999999999,T
+Pacific University,1166,24,3.43,89.3,OR,Forest Grove,781.3258333333334,T
+Portland State University,1084,20,3.26,95.19,OR,Portland,715.115,T
+Southern Oregon University,1093,20,3.28,90.43,OR,Ashland,734.89,T
+Western Oregon University,1055,18,3.2,79.14,OR,Monmouth,746.1133333333335,T
+Bryn Athyn College of the New Church,1070,21,3.23,77.71,PA,Bryn Athyn,759.1458333333334,T
+DeSales University,1139,25,3.37,81.77,PA,Center Valley,787.4308333333335,T
+Arcadia University,1138,24,3.37,73.63,PA,Glenside,811.5175,T
+Cabrini University,1036,20,3.16,61.67,PA,Radnor,787.2,T
+Carlow University,1070,21,3.23,94.46,PA,Pittsburgh,708.8958333333334,T
+Cedar Crest College,1072,20,3.24,52.46,PA,Allentown,836.8100000000001,T
+Delaware Valley University,1052,21,3.2,91.58,PA,Doylestown,707.7933333333334,T
+Duquesne University,1207,25,3.51,77.19,PA,Pittsburgh,841.3025,T
+Eastern University,1104,22,3.3,64.25,PA,Saint Davids,819.5916666666666,T
+Edinboro University of Pennsylvania,1061,20,3.21,85.03,PA,Edinboro,731.6908333333333,T
+Elizabethtown College,1176,23,3.45,85.73,PA,Elizabethtown,797.8641666666667,T
+Gannon University,1113,22,3.32,79.24,PA,Erie,780.1166666666667,T
+Gwynedd Mercy University,1044,18,3.18,88.03,PA,Gwynedd Valley,713.2816666666666,T
+Holy Family University,979,18,3.05,77.7,PA,Philadelphia,706.3874999999999,T
+Keystone College,991,25,3.07,78.74,PA,La Plume,709.7624999999999,T
+La Roche University,1006,19,3.1,68.91,PA,Pittsburgh,747.995,T
+Lancaster Bible College,1087,19,3.27,96.68,PA,Lancaster,712.8924999999999,T
+Lebanon Valley College,1166,24,3.43,77.8,PA,Annville,815.8258333333334,T
+Lycoming College,1117,23,3.33,65.48,PA,Williamsport,823.9775,T
+Marywood University,1102,23,3.3,82.03,PA,Scranton,765.5849999999999,T
+Messiah University,1205,26,3.51,77.52,PA,Mechanicsburg,839.6458333333334,T
+Neumann University,991,18,3.07,80.34,PA,Aston,704.9625,T
+University of Pittsburgh-Bradford,1055,20,3.2,79.19,PA,Bradford,745.9633333333335,T
+University of Pittsburgh-Greensburg,1085,21,3.26,90.02,PA,Greensburg,730.9583333333334,T
+University of Pittsburgh-Johnstown,1108,21,3.31,86.62,PA,Johnstown,755.0625,T
+Point Park University,1079,22,3.25,69.51,PA,Pittsburgh,789.2408333333333,T
+Robert Morris University,1140,26,3.37,85.63,PA,Moon Township,776.1841666666668,T
+Rosemont College,1049,18,3.19,69.1,PA,Rosemont,772.9858333333334,T
+Saint Vincent College,1090,24,3.27,72.12,PA,Latrobe,787.5725,T
+University of Scranton,1200,26,3.5,78.73,PA,Scranton,833.1016666666667,T
+Slippery Rock University of Pennsylvania,1075,21,3.24,73.98,PA,Slippery Rock,773.25,T
+Thiel College,1031,18,3.15,83.51,PA,Greenville,718.7658333333334,T
+Waynesburg University,1082,21,3.26,89.96,PA,Waynesburg,730.1383333333333,T
+West Chester University of Pennsylvania,1100,23,3.29,86.25,PA,West Chester,751.0108333333334,T
+Widener University,1126,22,3.35,74.58,PA,Chester,802.1725,T
+Wilkes University,1137,22,3.37,91.77,PA,Wilkes-Barre,756.7641666666667,T
+York College of Pennsylvania,1096,21,3.28,70.77,PA,York,794.8700000000001,T
+University of Rhode Island,1183,25,3.46,75.51,RI,Kingston,832.105,T
+Charleston Southern University,1091,22,3.27,53.79,SC,Charleston,842.8958333333334,T
+Southern Wesleyan University,1079,20,3.25,55.75,SC,Central,830.5208333333333,T
+College of Charleston,1175,25,3.45,74.32,SC,Charleston,831.7608333333335,T
+Citadel Military College of South Carolina,1139,23,3.37,79.95,SC,Charleston,792.8908333333334,T
+Claflin University,942,17,2.97,65.13,SC,Orangeburg,721.7841666666667,T
+Columbia International University,1055,21,3.2,50.67,SC,Columbia,831.5233333333334,T
+Converse University,1067,19,3.23,82.44,SC,Spartanburg,743.9558333333334,T
+Erskine College,1012,18,3.11,60.0,SC,Due West,777.9725,T
+Francis Marion University,990,18,3.07,75.25,SC,Florence,719.8991666666666,T
+Lander University,1015,19,3.12,57.03,SC,Greenwood,789.1300000000001,T
+Limestone University,1089,21,3.27,68.29,SC,Gaffney,798.7291666666667,T
+Newberry College,989,18,3.07,56.59,SC,Newberry,775.5458333333333,T
+North Greenville University,1082,23,3.26,65.33,SC,Tigerville,804.0283333333333,T
+University of South Carolina Aiken,1062,20,3.22,55.88,SC,Aiken,820.7216666666667,T
+University of South Carolina Beaufort,1029,19,3.15,66.94,SC,Bluffton,767.8091666666667,T
+University of South Carolina-Lancaster,992,17,3.07,75.0,SC,Lancaster,721.3158333333333,T
+University of South Carolina-Sumter,994,16,3.08,72.22,SC,Sumter,731.57,T
+Coastal Carolina University,1108,21,3.31,70.45,SC,Conway,803.5725,T
+University of South Carolina-Upstate,1005,18,3.1,59.54,SC,Spartanburg,775.7716666666668,T
+Black Hills State University,1089,20,3.27,97.14,SD,Spearfish,712.1791666666668,T
+Dakota State University,1131,22,3.36,83.57,SD,Madison,778.1166666666668,T
+Dakota Wesleyan University,1061,20,3.21,64.2,SD,Mitchell,794.1808333333333,T
+Mount Marty University,1035,19,3.16,78.43,SD,Yankton,736.5866666666666,T
+Northern State University,1119,21,3.33,78.71,SD,Aberdeen,784.9541666666667,T
+South Dakota State University,1150,22,3.39,88.94,SD,Brookings,772.0825,T
+University of South Dakota,1134,22,3.36,90.95,SD,Vermillion,756.9766666666666,T
+Austin Peay State University,1104,21,3.3,91.15,TN,Clarksville,738.8916666666665,T
+Baptist Health Sciences University,1082,22,3.26,69.3,TN,Memphis,792.1183333333333,T
+Belmont University,1244,29,3.59,83.23,TN,Nashville,845.4958333333332,T
+Bethel University,998,18,3.09,76.12,TN,McKenzie,722.4508333333333,T
+Carson-Newman University,1107,21,3.31,79.32,TN,Jefferson City,776.6291666666666,T
+East Tennessee State University,1167,23,3.43,78.38,TN,Johnson City,814.4191666666667,T
+Fisk University,1122,24,3.34,66.46,TN,Nashville,823.9516666666667,T
+Freed-Hardeman University,1185,26,3.47,80.85,TN,Henderson,817.9991666666667,T
+John A Gupton College,1050,20,3.19,76.47,TN,Nashville,751.2091666666666,T
+Johnson University,1056,22,3.2,54.97,TN,Knoxville,818.9566666666668,T
+King University,1097,21,3.29,60.18,TN,Bristol,828.2208333333334,T
+Lee University,1163,24,3.42,83.01,TN,Cleveland,797.9483333333334,T
+Lincoln Memorial University,1118,22,3.33,68.53,TN,Harrogate,815.1608333333334,T
+University of Memphis,1132,24,3.36,85.2,TN,Memphis,773.56,T
+Middle Tennessee State University,1146,24,3.39,94.2,TN,Murfreesboro,754.9691666666668,T
+Southern Adventist University,1139,24,3.37,73.96,TN,Collegedale,810.8608333333334,T
+Tennessee Wesleyan University,1096,21,3.28,60.92,TN,Athens,824.4200000000001,T
+The University of Tennessee-Chattanooga,1167,25,3.43,83.11,TN,Chattanooga,800.2291666666666,T
+Tennessee Technological University,1202,25,3.5,79.63,TN,Cookeville,831.0683333333333,T
+Trevecca Nazarene University,1138,23,3.37,62.83,TN,Nashville,843.9175,T
+Tusculum University,1067,21,3.23,67.15,TN,Greeneville,789.8258333333333,T
+Angelo State University,1034,19,3.16,78.16,TX,San Angelo,737.0633333333334,T
+Concordia University Texas,1086,20,3.26,92.95,TX,Austin,722.5016666666666,T
+Texas A & M University-Corpus Christi,1088,20,3.27,90.13,TX,Corpus Christi,732.8758333333334,T
+Texas A & M University-Commerce,1052,19,3.2,60.06,TX,Commerce,802.3533333333335,T
+Hardin-Simmons University,1069,21,3.23,90.51,TX,Abilene,720.4125,T
+Houston Baptist University,1101,22,3.3,71.51,TX,Houston,796.8116666666667,T
+University of Houston-Clear Lake,1090,21,3.27,80.73,TX,Houston,761.7425,T
+Huston-Tillotson University,888,15,2.86,55.96,TX,Austin,717.5716666666667,T
+Lamar University,1043,19,3.18,82.68,TX,Beaumont,728.9983333333334,T
+Texas A & M International University,995,17,3.08,58.93,TX,Laredo,771.7733333333333,T
+Lubbock Christian University,1097,21,3.29,96.51,TX,Lubbock,719.2308333333334,T
+University of Mary Hardin-Baylor,1105,21,3.3,90.3,TX,Belton,741.775,T
+McMurry University,1041,18,3.17,47.39,TX,Abilene,832.9541666666667,T
+Midwestern State University,1009,19,3.11,70.96,TX,Wichita Falls,744.0925,T
+University of North Texas,1152,24,3.4,83.98,TX,Denton,788.8766666666666,T
+Our Lady of the Lake University,971,17,3.03,73.97,TX,San Antonio,712.4158333333334,T
+The University of Texas Rio Grande Valley,1034,18,3.16,82.39,TX,Edinburg,724.3733333333334,T
+Paul Quinn College,920,14,2.93,61.87,TX,Dallas,719.2408333333335,T
+Prairie View A & M University,963,17,3.01,76.37,TX,Prairie View,700.0541666666667,T
+Sam Houston State University,1051,22,3.19,92.5,TX,Huntsville,703.4525,T
+St. Mary's University,1127,22,3.35,85.43,TX,San Antonio,769.9558333333333,T
+Stephen F Austin State University,1073,20,3.24,76.11,TX,Nacogdoches,766.1933333333334,T
+Texas State University,1104,22,3.3,84.54,TX,San Marcos,758.7216666666666,T
+Southwestern Adventist University,1025,22,3.14,62.3,TX,Keene,779.1483333333334,T
+Tarleton State University,1044,19,3.18,57.75,TX,Stephenville,804.1216666666667,T
+The University of Texas at Arlington,1160,24,3.41,87.75,TX,Arlington,781.4808333333334,T
+The University of Texas at Tyler,1135,25,3.36,91.63,TX,Tyler,755.27,T
+Texas Lutheran University,1098,20,3.29,59.3,TX,Seguin,831.1941666666668,T
+The University of Texas Permian Basin,1015,18,3.12,87.9,TX,Odessa,696.52,T
+The University of Texas at San Antonio,1116,21,3.33,83.54,TX,San Antonio,769.4641666666668,T
+Texas Southern University,975,18,3.04,66.37,TX,Houston,737.7966666666667,T
+Texas Tech University,1174,24,3.44,70.03,TX,Lubbock,843.05,T
+Texas Woman's University,1067,21,3.23,93.68,TX,Denton,710.2358333333333,T
+Wayland Baptist University,1014,18,3.12,81.44,TX,Plainview,715.5666666666667,T
+West Texas A & M University,1046,19,3.18,58.25,TX,Canyon,803.2883333333334,T
+Brigham Young University-Hawaii,1166,24,3.43,75.02,HI,Laie,824.1658333333335,T
+Southern Utah University,1183,24,3.46,75.56,UT,Cedar City,831.9549999999999,T
+Utah State University,1217,25,3.53,91.04,UT,Logan,805.5808333333333,T
+Westminster College,1205,24,3.51,87.45,UT,Salt Lake City,809.8558333333333,T
+Castleton University,1036,18,3.16,88.31,VT,Castleton,707.28,T
+Bridgewater College,1082,21,3.26,76.14,VA,Bridgewater,771.5983333333334,T
+Emory & Henry College,1066,21,3.22,75.41,VA,Emory,763.465,T
+Eastern Mennonite University,1129,26,3.35,71.82,VA,Harrisonburg,811.4525000000001,T
+Ferrum College,979,19,3.05,75.83,VA,Ferrum,711.9975,T
+George Mason University,1208,28,3.51,89.2,VA,Fairfax,805.6058333333333,T
+Hollins University,1175,26,3.45,80.79,VA,Roanoke,812.3508333333334,T
+Mary Baldwin University,1042,22,3.18,87.1,VA,Staunton,715.4050000000001,T
+University of Mary Washington,1195,28,3.49,75.49,VA,Fredericksburg,839.9075,T
+Marymount University,1089,25,3.27,85.26,VA,Arlington,747.8191666666668,T
+Old Dominion University,1071,20,3.23,95.41,VA,Norfolk,706.3791666666667,T
+Randolph-Macon College,1141,25,3.38,71.31,VA,Ashland,820.7249999999999,T
+Randolph College,1060,19,3.21,89.66,VA,Lynchburg,717.4675,T
+Roanoke College,1155,24,3.4,78.13,VA,Salem,807.4266666666667,T
+Shenandoah University,1123,22,3.34,74.38,VA,Winchester,800.525,T
+Southern Virginia University,1205,23,3.51,99.03,VA,Buena Vista,775.1158333333333,T
+Sweet Briar College,1100,23,3.29,75.95,VA,Sweet Briar,781.9108333333334,T
+University of Virginia's College at Wise,1073,21,3.24,82.57,VA,Wise,746.8133333333334,T
+Virginia Commonwealth University,1163,26,3.42,90.6,VA,Richmond,775.1783333333334,T
+Virginia Wesleyan University,1095,23,3.28,73.99,VA,Virginia Beach,784.8766666666666,T
+Central Washington University,1045,19,3.18,85.99,WA,Ellensburg,719.735,T
+Eastern Washington University,993,18,3.08,78.94,WA,Cheney,711.0766666666666,T
+The Evergreen State College,1076,24,3.24,98.38,WA,Olympia,700.3833333333334,T
+Northwest University,1110,22,3.31,92.77,WA,Kirkland,737.2791666666667,T
+Seattle Pacific University,1109,24,3.31,90.62,WA,Seattle,743.3958333333334,T
+Washington State University,1123,22,3.34,79.95,WA,Pullman,783.8149999999999,T
+Western Washington University,1184,25,3.46,93.51,WA,Bellingham,778.4383333333334,T
+Whitworth University,1171,25,3.44,91.01,WA,Spokane,779.1100000000001,T
+Alderson Broaddus University,972,18,3.03,52.76,WV,Philippi,776.3791666666667,T
+Appalachian Bible College,1023,21,3.14,48.74,WV,Mount Hope,819.1616666666666,T
+University of Charleston,1079,21,3.25,61.48,WV,Charleston,813.3308333333332,T
+Marshall University,1080,22,3.25,89.25,WV,Huntington,730.3541666666667,T
+West Liberty University,1039,19,3.17,68.44,WV,West Liberty,769.1375,T
+West Virginia University Institute of Technology,1034,20,3.16,55.12,WV,Beckley,806.1833333333334,T
+West Virginia Wesleyan College,1020,21,3.13,65.72,WV,Buckhannon,765.9741666666666,T
+West Virginia University,1152,24,3.4,83.89,WV,Morgantown,789.1466666666666,T
+Wheeling University,1009,19,3.11,76.82,WV,Wheeling,726.5125,T
+Bellin College,1140,22,3.37,95.71,WI,Green Bay,745.9441666666668,T
+Cardinal Stritch University,1046,20,3.18,76.9,WI,Milwaukee,747.3383333333334,T
+Carroll University,1165,23,3.42,71.77,WI,Waukesha,832.335,T
+Carthage College,1148,24,3.39,76.63,WI,Kenosha,808.3458333333334,T
+Concordia University-Wisconsin,1150,22,3.39,70.53,WI,Mequon,827.3125,T
+Maranatha Baptist University,1192,26,3.48,80.5,WI,Watertown,822.63,T
+Marian University,1028,19,3.15,67.67,WI,Fond Du Lac,765.2858333333334,T
+Mount Mary University,984,18,3.06,53.01,WI,Milwaukee,783.3716666666667,T
+Northland College,1138,22,3.37,64.3,WI,Ashland,839.5075,T
+Ripon College,1095,22,3.28,74.06,WI,Ripon,784.6666666666665,T
+Saint Norbert College,1211,24,3.52,84.25,WI,De Pere,822.7033333333334,T
+Viterbo University,1131,22,3.36,79.25,WI,La Crosse,791.0766666666667,T
+University of Wisconsin-Whitewater,1105,20,3.3,79.92,WI,Whitewater,772.915,T
+University of Wisconsin-Eau Claire,1170,23,3.44,84.36,WI,Eau Claire,798.7266666666666,T
+University of Wisconsin-Green Bay,1085,20,3.26,89.82,WI,Green Bay,731.5583333333334,T
+University of Wisconsin-La Crosse,1185,24,3.47,75.15,WI,La Crosse,835.0991666666666,T
+Wisconsin Lutheran College,1172,23,3.44,95.62,WI,Milwaukee,765.6133333333333,T
+University of Wisconsin-Oshkosh,1105,20,3.3,78.58,WI,Oshkosh,776.935,T
+University of Wisconsin-Parkside,1050,20,3.19,66.31,WI,Kenosha,781.6891666666666,T
+University of Wisconsin-Stout,1135,21,3.36,90.1,WI,Menomonie,759.86,T
+University of Wisconsin-Superior,1085,20,3.26,86.13,WI,Superior,742.6283333333333,T
+University of Wisconsin-Milwaukee,1105,21,3.3,78.69,WI,Milwaukee,776.605,T
+University of Wisconsin-Platteville,1150,22,3.39,81.48,WI,Platteville,794.4625,T
+University of Wisconsin-River Falls,1120,21,3.33,76.85,WI,River Falls,790.8675000000001,T
+University of Wisconsin-Stevens Point,1105,21,3.3,86.54,WI,Stevens Point,753.055,T
+University of Wyoming,1185,24,3.47,94.23,WY,Laramie,777.8591666666666,T
+Beckfield College-Florence,1050,19,3.19,79.57,KY,Florence,741.9091666666667,T
+California State University-San Marcos,1039,19,3.17,79.42,CA,San Marcos,736.1975,T
+Worsham College of Mortuary Science,1046,20,3.18,72.0,IL,Wheeling,762.0383333333334,T
+University of Washington-Bothell Campus,1158,23,3.41,87.93,WA,Bothell,780.2741666666668,T
+University of Washington-Tacoma Campus,1068,20,3.23,86.05,WA,Tacoma,733.4591666666666,T
+California State University-Monterey Bay,1058,20,3.21,85.62,CA,Seaside,728.9208333333333,T
+Southeast Missouri Hospital College of Nursing and Health Sciences,1120,23,3.33,90.0,MO,Cape Girardeau,751.4175,T
+Florida Gulf Coast University,1142,23,3.38,77.49,FL,Fort Myers,802.5183333333333,T
+University of Connecticut-Waterbury Campus,1062,21,3.22,96.63,CT,Waterbury,698.4716666666667,T
+University of Connecticut-Avery Point,1128,24,3.35,94.27,CT,Groton,743.7691666666667,T
+University of Connecticut-Stamford,1073,25,3.24,91.4,CT,Stamford,720.3233333333334,T
+The King's University,1098,25,3.29,94.29,TX,Southlake,726.2241666666667,T
+New Saint Andrews College,1253,27,3.6,86.15,ID,Moscow,840.9833333333333,T
+Oregon State University-Cascades Campus,1132,22,3.36,76.69,OR,Bend,799.0899999999999,T
+University of California-Merced,1066,19,3.22,84.8,CA,Merced,735.2950000000001,T
+Ave Maria University,1164,25,3.42,91.79,FL,Ave Maria,771.9416666666667,T
+University of Minnesota-Rochester,1152,22,3.4,73.75,MN,Rochester,819.5666666666666,T
+Florida School of Traditional Midwifery,1050,20,3.19,88.0,FL,Gainesville,716.6191666666666,T
+Texas A&M University-San Antonio,1022,18,3.13,59.85,TX,San Antonio,784.2508333333334,T
+John Paul the Great Catholic University,1102,25,3.3,76.77,CA,Escondido,781.365,T
+University of Connecticut-Hartford Campus,1093,22,3.28,96.16,CT,Hartford,717.6999999999999,T
+Augusta University,1121,23,3.34,82.88,GA,Augusta,774.3583333333333,T
+University of North Georgia,1097,22,3.29,81.45,GA,Dahlonega,764.4108333333334,T
+Antioch College,1165,25,3.42,84.57,OH,Yellow Springs,793.9350000000001,T
+American College of the Building Arts,1139,24,3.37,64.71,SC,Charleston,838.6108333333334,T
+Kennesaw State University,1117,22,3.33,83.11,GA,Kennesaw,771.0875,T
+Milligan University,1197,26,3.49,99.23,TN,Milligan,769.3541666666667,T
+Husson University,1054,20,3.2,84.66,ME,Bangor,729.22,T
+University of Saint Katherine,1061,20,3.21,63.79,CA,San Marcos,795.4108333333334,T
+The Pennsylvania State University,1198,27,3.49,78.27,PA,University Park,832.5675000000001,T
+Alabama A & M University,959,17,3.01,89.65,AL,Normal,658.8808333333333,S
+Alabama State University,938,17,2.96,98.88,AL,Montgomery,617.9533333333334,S
+University of West Alabama,1035,19,3.16,93.13,AL,Livingston,692.4866666666667,S
+California State University-Fresno,996,18,3.08,90.11,CA,Fresno,678.5666666666667,S
+Life Pacific University,1015,19,3.12,93.1,CA,San Dimas,680.9200000000001,S
+Adams State University,1004,19,3.1,99.88,CO,Alamosa,654.4183333333334,S
+Metropolitan State University of Denver,973,20,3.04,83.33,CO,Denver,686.25,S
+Colorado State University Pueblo,1022,20,3.13,94.31,CO,Pueblo,680.8708333333334,S
+Bethune-Cookman University,919,16,2.93,97.73,FL,Daytona Beach,611.3275,S
+Albany State University,858,15,2.8,73.02,GA,Albany,648.9066666666668,S
+College of Coastal Georgia,1006,18,3.1,95.94,GA,Brunswick,666.905,S
+Life University,1003,20,3.1,96.81,GA,Marietta,663.295,S
+Paine College,899,16,2.88,74.99,GA,Augusta,666.6433333333333,S
+Truett McConnell University,1052,21,3.2,97.29,GA,Cleveland,690.6633333333334,S
+University of Hawaii-West Oahu,1012,17,3.11,95.23,HI,Kapolei,672.2824999999999,S
+Boise Bible College,988,19,3.07,90.38,ID,Boise,673.8425,S
+Lewis-Clark State College,998,19,3.09,99.75,ID,Lewiston,651.5608333333333,S
+VanderCook College of Music,1007,24,3.1,100.0,IL,Chicago,655.0583333333334,S
+Saint Elizabeth School of Nursing,921,17,2.93,100.0,IN,Lafayette,605.1841666666668,S
+Grand View University,1059,20,3.21,97.02,IA,Des Moines,695.0541666666668,S
+Kentucky State University,959,17,3.01,83.98,KY,Frankfort,675.8908333333333,S
+Spalding University,1026,19,3.14,93.43,KY,Louisville,686.0916666666667,S
+Grambling State University,942,17,2.97,93.22,LA,Grambling,637.5141666666667,S
+Southern University at New Orleans,925,18,2.94,72.0,LA,New Orleans,691.765,S
+Bowie State University,936,18,2.96,81.21,MD,Bowie,670.2966666666666,S
+Rochester University,967,20,3.02,99.43,MI,Rochester Hills,633.455,S
+Blue Mountain College,1065,21,3.22,99.12,MS,Blue Mountain,692.0016666666667,S
+Delta State University,1063,20,3.22,99.61,MS,Cleveland,689.865,S
+Jackson State University,993,19,3.08,89.98,MS,Jackson,677.9566666666666,S
+Mississippi Valley State University,945,17,2.98,82.72,MS,Itta Bena,671.2616666666667,S
+Culver-Stockton College,1039,19,3.17,98.33,MO,Canton,679.4675,S
+University of Providence,1013,18,3.12,98.53,MT,Great Falls,663.9633333333334,S
+Bloomfield College,889,17,2.86,84.65,NJ,Bloomfield,631.8349999999999,S
+Caldwell University,1017,19,3.12,91.52,NJ,Caldwell,686.3266666666668,S
+Centenary University,997,18,3.08,93.0,NJ,Hackettstown,670.23,S
+Felician University,973,21,3.04,93.55,NJ,Lodi,655.59,S
+Concordia College,1053,17,3.2,95.29,NY,Bronxville,631.9966666666667,S
+D'Youville College,1064,20,3.22,83.07,NY,Buffalo,674.8183333333334,S
+Marymount Manhattan College,1109,25,3.31,88.18,NY,New York,685.7158333333334,S
+Mercy College,1025,19,3.14,81.96,NY,Dobbs Ferry,655.1683333333334,S
+Mount Saint Mary College,1080,22,3.25,90.17,NY,Newburgh,662.5941666666668,S
+College of Mount Saint Vincent,1002,18,3.09,92.68,NY,Bronx,609.1041666666665,S
+Niagara University,1118,22,3.33,92.41,NY,Niagara University,678.5208333333334,S
+SUNY College of Technology at Canton,1029,18,3.15,83.01,NY,Canton,654.5991666666666,S
+SUNY Morrisville,973,19,3.04,76.72,NY,Morrisville,641.08,S
+Chowan University,891,15,2.87,67.36,NC,Murfreesboro,685.6191666666667,S
+Elizabeth City State University,929,16,2.95,74.83,NC,Elizabeth City,685.8558333333333,S
+Fayetteville State University,948,17,2.98,79.38,NC,Fayetteville,682.2816666666666,S
+Livingstone College,847,13,2.78,68.95,NC,Salisbury,654.9549999999999,S
+North Carolina Central University,937,16,2.96,87.42,NC,Durham,652.0,S
+University of North Carolina at Pembroke,1012,17,3.11,91.38,NC,Pembroke,683.8325,S
+Saint Augustine's University,842,12,2.77,67.33,NC,Raleigh,656.9008333333334,S
+Dickinson State University,1031,18,3.15,98.62,ND,Dickinson,673.4358333333333,S
+Hiram College,1037,20,3.17,92.77,OH,Hiram,695.4808333333333,S
+Wilberforce University,862,17,2.81,61.57,OH,Wilberforce,685.8375,S
+Northeastern State University,1069,20,3.23,99.49,OK,Tahlequah,693.4725,S
+California University of Pennsylvania,1024,18,3.14,94.32,PA,California,682.7550000000001,S
+East Stroudsburg University of Pennsylvania,1007,19,3.1,90.5,PA,East Stroudsburg,683.5583333333334,S
+Indiana University of Pennsylvania-Main Campus,1036,21,3.16,93.1,PA,Indiana,692.9100000000001,S
+Kutztown University of Pennsylvania,1038,20,3.17,93.19,PA,Kutztown,694.5541666666667,S
+Lincoln University,942,15,2.97,90.34,PA,Lincoln University,646.1541666666667,S
+Mansfield University of Pennsylvania,1041,18,3.17,96.02,PA,Mansfield,687.0641666666668,S
+Shippensburg University of Pennsylvania,1042,19,3.18,93.92,PA,Shippensburg,694.945,S
+Wilson College,1030,20,3.15,92.2,PA,Chambersburg,692.3625,S
+Coker University,1008,18,3.11,93.06,SC,Hartsville,677.4591666666666,S
+Columbia College,964,16,3.02,97.07,SC,Columbia,639.5350000000001,S
+University of South Carolina-Salkehatchie,906,15,2.9,85.4,SC,Allendale,640.2416666666666,S
+University of South Carolina-Union,925,15,2.94,83.52,SC,Union,657.205,S
+Presentation College,1035,19,3.16,93.21,SD,Aberdeen,692.2466666666667,S
+The University of Tennessee Southern,1047,21,3.19,98.34,TN,Pulaski,684.5991666666667,S
+Texas A&M University-Texarkana,1035,19,3.16,96.46,TX,Texarkana,682.4966666666667,S
+University of the Incarnate Word,1046,20,3.18,96.56,TX,San Antonio,688.3583333333335,S
+Schreiner University,1043,19,3.18,96.15,TX,Kerrville,688.5883333333334,S
+Southwestern Assemblies of God University,1012,19,3.11,88.76,TX,Waxahachie,691.6925,S
+Sul Ross State University,960,17,3.01,80.83,TX,Alpine,685.6741666666666,S
+Texas A & M University-Kingsville,1012,18,3.11,87.92,TX,Kingsville,694.2125,S
+Virginia State University,916,17,2.92,96.26,VA,Petersburg,613.49,S
+Virginia Union University,851,16,2.79,75.35,VA,Richmond,638.3358333333334,S
+Saint Martin's University,1043,19,3.18,94.19,WA,Lacey,694.4683333333335,S
+Bethany College,989,18,3.07,91.84,WV,Bethany,669.7958333333333,S
+Bluefield State College,992,19,3.07,90.03,WV,Bluefield,676.2258333333333,S
+Concord University,972,19,3.03,91.4,WV,Athens,660.4591666666666,S
+Fairmont State University,1020,19,3.13,94.34,WV,Fairmont,680.1141666666666,S
+Ohio Valley University,1023,20,3.14,94.81,WV,Vienna,680.9516666666666,S
+West Virginia State University,1008,19,3.11,88.5,WV,Institute,691.1391666666666,S
+University of the Virgin Islands,914,17,2.92,99.69,VI,Charlotte Amalie,602.5333333333333,S
+Criswell College,1040,19,3.17,100.0,TX,Dallas,674.7908333333334,S
+Colorado State University-Global Campus,1052,19,3.2,98.26,CO,Aurora,687.7533333333334,S
+University of Alabama at Birmingham,1245,28,3.59,80.6,AL,Birmingham,853.7191666666668,R
+University of Alabama in Huntsville,1300,29,3.7,77.11,AL,Huntsville,896.245,R
+The University of Alabama,1262,28,3.62,80.39,AL,Tuscaloosa,863.7583333333333,R
+Auburn University,1302,29,3.7,85.07,AL,Auburn,873.0316666666668,R
+Birmingham-Southern College,1202,26,3.5,60.45,AL,Birmingham,888.6083333333332,R
+Huntingdon College,1101,22,3.3,54.39,AL,Montgomery,848.1716666666666,R
+Marion Military Institute,1147,22,3.39,57.5,AL,Marion,865.4025,R
+University of Montevallo,1131,24,3.36,60.52,AL,Montevallo,847.2666666666667,R
+Spring Hill College,1125,24,3.34,54.16,AL,Mobile,861.8516666666667,R
+Embry-Riddle Aeronautical University-Prescott,1238,25,3.57,66.85,AZ,Prescott,890.1408333333334,R
+Lyon College,1198,25,3.49,50.15,AR,Batesville,916.9275,R
+University of Arkansas,1236,27,3.57,77.67,AR,Fayetteville,857.0141666666666,R
+Harding University,1207,27,3.51,55.07,AR,Searcy,907.6624999999999,R
+John Brown University,1227,28,3.55,58.86,AR,Siloam Springs,907.9491666666667,R
+Ouachita Baptist University,1203,27,3.5,61.77,AR,Arkadelphia,884.9816666666667,R
+Biola University,1196,27,3.49,64.38,CA,La Mirada,873.5708333333334,R
+California State University-Long Beach,1133,23,3.36,42.12,CA,Long Beach,903.1333333333333,R
+University of California-Riverside,1200,23,3.5,65.78,CA,Riverside,871.9516666666667,R
+University of California-Santa Cruz,1284,27,3.67,64.73,CA,Santa Cruz,924.3091666666668,R
+Chapman University,1275,29,3.65,58.26,CA,Orange,938.2241666666666,R
+Hope International University,1029,20,3.15,38.29,CA,Fullerton,893.7591666666666,R
+University of the Pacific,1221,26,3.54,70.75,CA,Stockton,869.0316666666668,R
+University of San Francisco,1248,28,3.59,70.3,CA,San Francisco,885.6191666666667,R
+Southern California Institute of Architecture,1180,29,3.46,67.3,CA,Los Angeles,855.735,R
+Thomas Aquinas College,1297,31,3.69,85.53,CA,Santa Paula,868.7375000000001,R
+Westmont College,1259,29,3.62,70.16,CA,Santa Barbara,893.4483333333334,R
+University of Colorado Boulder,1268,28,3.63,84.2,CO,Boulder,855.5758333333333,R
+University of Denver,1296,30,3.69,60.67,CO,Denver,942.9841666666667,R
+University of Delaware,1254,28,3.61,65.99,DE,Newark,903.0441666666666,R
+Johnson University Florida,980,20,3.05,37.31,FL,Kissimmee,867.8908333333333,R
+Embry-Riddle Aeronautical University-Daytona Beach,1240,25,3.58,60.6,FL,Daytona Beach,910.805,R
+Flagler College,1125,22,3.34,56.49,FL,Saint Augustine,854.8616666666667,R
+Florida Institute of Technology,1241,26,3.58,70.37,FL,Melbourne,881.8283333333334,R
+Florida International University,1190,26,3.48,57.88,FL,Miami,889.8233333333334,R
+Florida Southern College,1230,27,3.56,50.37,FL,Lakeland,935.6666666666666,R
+Southeastern University,1081,22,3.25,42.66,FL,Lakeland,870.4575,R
+The University of Tampa,1174,25,3.44,55.51,FL,Tampa,886.6099999999999,R
+Webber International University,951,17,2.99,37.78,FL,Babson Park,849.3291666666668,R
+The University of West Florida,1168,25,3.43,57.56,FL,Pensacola,877.2125000000001,R
+Point University,1007,19,3.1,34.87,GA,West Point,890.4483333333334,R
+Mercer University,1285,29,3.67,78.16,GA,Macon,884.3525,R
+Oglethorpe University,1203,26,3.5,66.93,GA,Atlanta,869.5016666666667,R
+Spelman College,1129,23,3.35,52.58,GA,Atlanta,869.1725,R
+Bradley University,1196,26,3.49,73.28,IL,Peoria,846.8708333333334,R
+Illinois Wesleyan University,1233,27,3.56,56.93,IL,Bloomington,916.9866666666667,R
+Knox College,1229,27,3.55,70.84,IL,Galesburg,872.6758333333332,R
+Loyola University Chicago,1261,30,3.62,70.54,IL,Chicago,892.975,R
+North Central College,1164,25,3.42,53.29,IL,Naperville,887.4416666666667,R
+North Park University,1055,22,3.2,43.96,IL,Chicago,851.6533333333334,R
+Wheaton College,1336,31,3.77,86.95,IL,Wheaton,887.4575,R
+Butler University,1265,28,3.63,75.69,IN,Indianapolis,880.1058333333333,R
+DePauw University,1235,27,3.57,68.49,IN,Greencastle,884.2208333333333,R
+Earlham College,1236,28,3.57,59.1,IN,Richmond,912.7241666666665,R
+Holy Cross College,1283,30,3.66,77.02,IN,Notre Dame,885.8583333333333,R
+Indiana University-Bloomington,1261,28,3.62,80.38,IN,Bloomington,863.455,R
+Rose-Hulman Institute of Technology,1371,31,3.84,76.62,IN,Terre Haute,938.8466666666667,R
+Wabash College,1226,24,3.55,63.21,IN,Crawfordsville,894.5658333333333,R
+Dordt University,1209,25,3.51,71.84,IA,Sioux Center,858.0191666666667,R
+Drake University,1254,27,3.61,67.92,IA,Des Moines,897.2541666666666,R
+Luther College,1229,26,3.55,64.29,IA,Decorah,892.3258333333332,R
+Sterling College,1061,21,3.21,36.88,KS,Sterling,916.1408333333334,R
+Alice Lloyd College,994,20,3.08,21.15,KY,Pippa Passes,924.78,R
+Brescia University,1112,22,3.32,47.83,KY,Owensboro,874.0133333333333,R
+Centre College,1325,30,3.75,72.08,KY,Danville,925.9058333333334,R
+Kentucky Mountain Bible College,1115,23,3.32,39.39,KY,Jackson,940.3333333333333,R
+Kentucky Christian University,970,17,3.03,28.29,KY,Grayson,889.1225,R
+University of Louisville,1198,26,3.49,65.12,KY,Louisville,872.0175,R
+Centenary College of Louisiana,1191,25,3.48,63.69,LA,Shreveport,872.7266666666667,R
+Louisiana State University and Agricultural & Mechanical College,1229,28,3.55,73.38,LA,Baton Rouge,865.0558333333332,R
+Louisiana Tech University,1216,25,3.53,63.57,LA,Ruston,887.6574999999999,R
+Franciscan Missionaries of Our Lady University,1120,22,3.33,46.65,LA,Baton Rouge,881.4675,R
+University of Maryland-Baltimore County,1255,27,3.61,69.48,MD,Baltimore,892.9075,R
+Bentley University,1281,29,3.66,57.82,MA,Waltham,942.7916666666667,R
+University of Massachusetts-Lowell,1232,27,3.56,75.2,MA,Lowell,861.8433333333334,R
+University of Massachusetts-Amherst,1307,29,3.71,65.32,MA,Amherst,935.1958333333333,R
+Springfield College,1239,24,3.58,63.41,MA,Springfield,902.0416666666667,R
+Wheaton College (Massachusetts),1282,31,3.66,77.09,MA,Norton,885.315,R
+Andrews University,1205,26,3.51,48.78,MI,Berrien Springs,925.8658333333333,R
+Calvin University,1229,28,3.55,73.21,MI,Grand Rapids,865.5658333333332,R
+Kettering University,1278,28,3.65,74.13,MI,Flint,891.6141666666666,R
+Michigan State University,1216,26,3.53,76.31,MI,East Lansing,849.4375,R
+Michigan Technological University,1269,27,3.64,70.36,MI,Houghton,898.6766666666666,R
+University of Michigan-Dearborn,1211,26,3.52,67.51,MI,Dearborn,872.9233333333334,R
+Concordia College at Moorhead,1169,23,3.43,58.08,MN,Moorhead,875.9858333333334,R
+University of Minnesota-Twin Cities,1320,28,3.74,69.64,MN,Minneapolis,930.3116666666668,R
+University of Minnesota-Morris,1199,24,3.49,64.65,MN,Morris,873.7608333333334,R
+Crown College,1063,20,3.22,46.89,MN,Saint Bonifacius,848.025,R
+The College of Saint Scholastica,1205,23,3.51,73.31,MN,Duluth,852.2758333333334,R
+Alcorn State University,1035,20,3.16,37.72,MS,Alcorn State,898.7166666666667,R
+Belhaven University,1083,22,3.26,49.54,MS,Jackson,851.7316666666667,R
+Millsaps College,1184,26,3.46,69.81,MS,Jackson,849.5383333333334,R
+Mississippi State University,1244,27,3.59,80.04,MS,Mississippi State,855.0658333333332,R
+William Carey University,1172,25,3.44,55.28,MS,Hattiesburg,886.6333333333333,R
+Avila University,1065,21,3.22,41.98,MO,Kansas City,863.4216666666667,R
+Drury University,1208,25,3.51,70.68,MO,Springfield,861.1658333333332,R
+University of Missouri-Columbia,1247,27,3.59,81.78,MO,Columbia,850.8458333333333,R
+University of Missouri-Kansas City,1184,24,3.46,63.01,MO,Kansas City,869.9383333333333,R
+Missouri University of Science and Technology,1328,28,3.76,81.46,MO,Rolla,900.0133333333332,R
+University of Missouri-St Louis,1188,24,3.47,57.59,MO,Saint Louis,888.7791666666667,R
+Truman State University,1278,28,3.65,72.1,MO,Kirksville,897.7041666666667,R
+University of Health Sciences and Pharmacy in St. Louis,1266,27,3.63,78.22,MO,Saint Louis,872.8491666666667,R
+Webster University,1170,25,3.44,53.12,MO,Saint Louis,892.4466666666667,R
+Carroll College,1199,24,3.49,73.02,MT,Helena,848.6508333333334,R
+Nebraska Wesleyan University,1222,25,3.54,69.53,NE,Lincoln,873.025,R
+University of Nebraska-Lincoln,1220,24,3.54,77.74,NE,Lincoln,847.7283333333332,R
+Summit Christian College,1035,19,3.16,35.71,NE,Gering,904.7466666666667,R
+Saint Anselm College,1230,30,3.56,76.15,NH,Manchester,858.3266666666666,R
+New Jersey Institute of Technology,1299,28,3.7,66.03,NJ,Newark,929.1516666666668,R
+Rutgers University-New Brunswick,1301,30,3.7,66.93,NJ,New Brunswick,927.1183333333333,R
+Seton Hall University,1244,28,3.59,78.23,NJ,South Orange,860.4958333333332,R
+CUNY Bernard M Baruch College,1268,29,3.63,40.71,NY,New York,921.0458333333333,R
+CUNY Hunter College,1259,29,3.62,40.48,NY,New York,917.4883333333333,R
+CUNY John Jay College of Criminal Justice,1093,23,3.28,37.43,NY,New York,868.89,R
+Fordham University,1334,32,3.77,52.53,NY,Bronx,925.0508333333333,R
+Hobart William Smith Colleges,1279,28,3.66,61.84,NY,Geneva,865.065,R
+Rochester Institute of Technology,1341,29,3.78,73.86,NY,Rochester,864.6416666666665,R
+Sarah Lawrence College,1333,31,3.77,54.63,NY,Bronxville,918.4175,R
+Stony Brook University,1337,30,3.77,48.91,NY,Stony Brook,936.9108333333334,R
+Yeshiva University,1288,30,3.67,67.41,NY,New York,852.6025,R
+Cabarrus College of Health Sciences,1036,19,3.16,35.38,NC,Concord,906.07,R
+Elon University,1258,29,3.61,71.7,NC,Elon,887.2475,R
+University of North Carolina Wilmington,1226,24,3.55,67.97,NC,Wilmington,880.2858333333334,R
+Western Carolina University,1129,22,3.35,48.48,NC,Cullowhee,881.4725000000001,R
+Cedarville University,1251,28,3.6,59.33,OH,Cedarville,920.7766666666666,R
+University of Cincinnati-Main Campus,1245,26,3.59,76.4,OH,Cincinnati,866.3191666666667,R
+Cleveland Institute of Art,1168,24,3.43,67.18,OH,Cleveland,848.3525000000001,R
+Good Samaritan College of Nursing and Health Science,1100,21,3.29,34.62,OH,Cincinnati,945.9008333333334,R
+Mercy College of Ohio,1030,19,3.15,39.51,OH,Toledo,890.4324999999999,R
+Ohio Northern University,1218,25,3.53,65.2,OH,Ada,883.4341666666666,R
+Ohio State University-Main Campus,1337,30,3.77,68.49,OH,Columbus,943.1708333333333,R
+Franciscan University of Steubenville,1204,28,3.5,73.0,OH,Steubenville,851.625,R
+Randall University,1057,19,3.21,38.82,OK,Moore,908.9875,R
+Oklahoma Christian University,1162,25,3.42,61.21,OK,Edmond,863.015,R
+Oklahoma State University-Main Campus,1186,24,3.47,67.09,OK,Stillwater,859.6125000000001,R
+Oklahoma Baptist University,1138,23,3.37,58.21,OK,Shawnee,857.7775,R
+Oklahoma City University,1213,27,3.52,73.1,OK,Oklahoma City,856.8200000000002,R
+University of Tulsa,1255,28,3.61,69.22,OK,Tulsa,893.6875000000001,R
+Lewis & Clark College,1313,31,3.73,79.82,OR,Portland,896.1908333333333,R
+University of Portland,1233,27,3.56,77.22,OR,Portland,856.1166666666667,R
+Corban University,1077,20,3.25,48.34,OR,Salem,852.0841666666666,R
+Allegheny College,1260,27,3.62,73.15,PA,Meadville,884.8116666666667,R
+Drexel University,1287,29,3.67,77.19,PA,Philadelphia,887.9291666666668,R
+Grove City College,1250,28,3.6,77.59,PA,Grove City,865.6633333333334,R
+Muhlenberg College,1280,29,3.66,62.18,PA,Allentown,929.3783333333334,R
+University of the Sciences,1218,25,3.53,71.4,PA,Philadelphia,864.8341666666665,R
+Saint Francis University,1134,24,3.36,59.35,PA,Loretto,851.7766666666665,R
+Thomas Jefferson University,1179,24,3.45,69.84,PA,Philadelphia,846.5341666666667,R
+Ursinus College,1253,28,3.6,80.44,PA,Collegeville,858.1133333333335,R
+University of South Carolina-Columbia,1268,28,3.63,68.35,SC,Columbia,903.1258333333334,R
+Augustana University,1220,25,3.54,71.38,SD,Sioux Falls,866.8083333333333,R
+South Dakota School of Mines and Technology,1266,26,3.63,85.55,SD,Rapid City,850.8591666666667,R
+Christian Brothers University,1190,26,3.48,49.94,TN,Memphis,913.6433333333334,R
+Lipscomb University,1226,28,3.55,61.5,TN,Nashville,899.6958333333333,R
+Maryville College,1159,25,3.41,62.11,TN,Maryville,858.0675000000001,R
+The University of Tennessee-Knoxville,1294,29,3.69,78.15,TN,Knoxville,889.8774999999999,R
+The University of Tennessee-Martin,1170,23,3.44,64.95,TN,Martin,856.9566666666666,R
+Union University,1242,28,3.58,57.53,TN,Jackson,920.6816666666667,R
+Abilene Christian University,1150,24,3.39,63.4,TX,Abilene,848.7025000000001,R
+Austin College,1220,26,3.54,49.28,TX,Sherman,933.1083333333332,R
+University of Dallas,1251,28,3.6,53.78,TX,Irving,937.4266666666666,R
+University of Houston,1216,25,3.53,62.79,TX,Houston,889.9975,R
+LeTourneau University,1227,25,3.55,56.11,TX,Longview,916.1991666666668,R
+Southwestern University,1223,26,3.54,49.37,TX,Georgetown,933.8383333333334,R
+Texas A & M University-College Station,1300,29,3.7,63.27,TX,College Station,937.7650000000001,R
+The University of Texas at Dallas,1345,30,3.79,79.36,TX,Richardson,915.7225,R
+Texas Wesleyan University,1081,20,3.25,46.79,TX,Fort Worth,858.0675,R
+Brigham Young University,1335,30,3.77,69.25,UT,Provo,940.2241666666666,R
+University of Utah,1236,26,3.57,79.4,UT,Salt Lake City,851.8241666666665,R
+University of Vermont,1276,29,3.65,71.32,VT,Burlington,899.3774999999999,R
+Regent University,1110,25,3.31,50.44,VA,Virginia Beach,864.2691666666666,R
+Hampden-Sydney College,1142,23,3.38,47.01,VA,Hampden-Sydney,893.9583333333334,R
+Liberty University,1172,25,3.44,50.13,VA,Lynchburg,902.0833333333334,R
+Virginia Polytechnic Institute and State University,1280,28,3.66,65.77,VA,Blacksburg,918.6083333333335,R
+Virginia Military Institute,1180,25,3.46,59.88,VA,Lexington,877.995,R
+Gonzaga University,1272,29,3.64,72.89,WA,Spokane,892.0866666666666,R
+Seattle University,1249,27,3.6,83.23,WA,Seattle,848.41,R
+Lawrence University,1323,30,3.75,68.92,WI,Appleton,934.7191666666668,R
+Marquette University,1285,29,3.67,82.49,WI,Milwaukee,871.3625,R
+Milwaukee School of Engineering,1294,27,3.69,60.09,WI,Milwaukee,944.0575,R
+Purdue University-Main Campus,1315,29,3.73,67.15,IN,West Lafayette,934.8675000000001,R
+New College of Florida,1277,29,3.65,69.97,FL,Sarasota,903.7608333333334,R
+Patrick Henry College,1306,32,3.71,88.14,VA,Purcellville,866.4025,R
+University of Florida-Online,1295,30,3.69,62.39,FL,Gainesville,937.4908333333334,R
+Purdue University Northwest,1071,21,3.23,30.28,IN,Hammond,941.7691666666667,R
+Works!

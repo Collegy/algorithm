@@ -1,0 +1,48 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Launch App",
+            "request": "launch",
+            "mainClass": "com.collegedata.App",
+            "projectName": "collegedatadb"
+        },
+        {
+            "type": "java",
+            "name": "Launch Driver",
+            "request": "launch",
+            "mainClass": "Components.Driver",
+            "projectName": "CollegeListMaker_774d0087"
+        },
+        {
+            "type": "java",
+            "name": "Launch College",
+            "request": "launch",
+            "mainClass": "Components.College",
+            "projectName": "CollegeListMaker_774d0087"
+        },
+        {
+            "type": "java",
+            "name": "Launch CollegeListMaker",
+            "request": "launch",
+            "mainClass": "Components.CollegeListMaker",
+            "projectName": "CollegeListMaker_774d0087"
+        },
+        {
+            "name": "Python: Current File",
+            "type": "python",
+            "request": "launch",
+            "program": "${file}",
+            "console": "integratedTerminal",
+            "justMyCode": true
+        },
+        {
+            "name": "Python: File",
+            "type": "python",
+            "request": "launch",
+            "program": "${file}",
+            "justMyCode": true
+        }
+    ]
+}
