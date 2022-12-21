@@ -169,7 +169,6 @@ const IndividualData = mongoose.model(
 app.get("/submissions/:id", async (req, res) => {
     try {
         const id = req.params.id; //GETS ID FROM API CALL URL
-
         const submission = await Submissions.findOne({ id }); //GETS DOCUMENT ASSOCIATED WITH THE ID
 
         //TEMPORARY VARIABLES FOR LATER
