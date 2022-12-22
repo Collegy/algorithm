@@ -82,7 +82,6 @@ function confidenceScore(
     confidenceScore += (interviewing * totalWeight) / 50;
     confidenceScore += (character * totalWeight) / 50;
     confidenceScore += (interest * totalWeight) / 50;
-
     return confidenceScore;
 }
 
@@ -231,33 +230,34 @@ app.get("/submissions/:id", async (req, res) => {
         //PREPARES COLLEGES LISTS WITH ADJUSTMENTS FOR OUTPUT
         let colleges = await Colleges.find();
         colleges.forEach((college) => {
+            let totalWeight = 250.0;
             if (college.BASE_SCORE != "NULL") {
                 //ADJUSTED SCORE METRICS
                 let tempScore = college.BASE_SCORE;
                 legacy.forEach((col) => {
                     if (college.INSTNM === col) {
-                        tempScore -= 20;
+                        tempScore -= totalWeight * 0.08;
                     }
                 });
                 alumni.forEach((col) => {
                     if (college.INSTNM === col) {
-                        tempScore -= 10;
+                        tempScore -= totalWeight * 0.04;
                     }
                 });
                 feeder.forEach((col) => {
                     if (college.INSTNM === col) {
-                        tempScore -= 30;
+                        tempScore -= totalWeight * 0.12;
                     }
                 });
                 if (state === college.STABBR) {
-                    tempScore -= 40;
+                    tempScore -= totalWeight * 0.16;
                 } else {
-                    tempScore += 25;
+                    tempScore += totalWeight * 0.12;
                 }
-                if (international) tempScore -= 25;
-                if (fgen) tempScore -= 25;
-                if (transfer) tempScore += 20;
-                if (rank / size < 0.1) tempScore -= 40;
+                if (international) tempScore -= totalWeight * 0.12;
+                if (fgen) tempScore -= totalWeight * 0.12;
+                if (transfer) tempScore += totalWeight * 0.08;
+                if (rank / size < 0.1) tempScore -= totalWeight * 0.16;
 
                 //LIST FORMATION AND ADDITIONS
                 if (Math.abs(tempScore - total) < 50) {
@@ -271,12 +271,30 @@ app.get("/submissions/:id", async (req, res) => {
         });
 
         //CREATION OF NEW USER LISTS DOCUMENT IN MONGO
-        let newIndividualData = await IndividualData.create({
-            id: id,
-            safeties: safeties,
-            targets: targets,
-            reaches: reaches,
-        });
+        if (IndividualData.findOne({ id }) === null) {
+            let newIndividualData = await IndividualData.create({
+                id: id,
+                safeties: safeties,
+                targets: targets,
+                reaches: reaches,
+            });
+        } else {
+            const fields = {
+                id: id,
+                safeties: safeties,
+                targets: targets,
+                reaches: reaches,
+            };
+            let person = await IndividualData.findOne({ id });
+            person.set(fields);
+            person.save(function (error) {
+                if (error) {
+                    console.log(error);
+                } else {
+                    console.log("Document saved successfully!");
+                }
+            });
+        }
 
         res.json(total); //TEMPORARY OUTPUT
     } catch (error) {

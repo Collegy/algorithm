@@ -56,23 +56,37 @@ app.get("/final/:id", async (req, res) => {
         let targetsScoresArr = lists.ft;
         let reachesArr = lists.reaches;
         let reachesScoresArr = lists.fr;
+        let safetyCount = individual.safeties;
+        let targetCount = individual.targets;
+        let reachCount = individual.reaches;
+
+        //Accounts for reasonable list size
+        if (safetyCount > safetiesArr.length) {
+            safetyCount = safetiesArr.length;
+        }
+        if (targetCount > targetsArr.length) {
+            targetCount = targetsArr.length;
+        }
+        if (reachCount > reachesArr.length) {
+            reachCount = reachesArr.length;
+        }
 
         let getFinalSafeties = await getMaxValues(
             safetiesScoresArr,
             safetiesArr,
-            individual.safeties,
+            safetyCount,
             "Safeties"
         );
         let getFinalTargets = await getMaxValues(
             targetsScoresArr,
             targetsArr,
-            individual.targets,
+            targetCount,
             "Targets"
         );
         let getFinalReaches = await getMaxValues(
             reachesScoresArr,
             reachesArr,
-            individual.reaches,
+            reachCount,
             "Reaches"
         );
         let tempFinalListSTR = [

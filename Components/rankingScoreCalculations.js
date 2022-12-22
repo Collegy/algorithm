@@ -154,8 +154,8 @@ const Individual = mongoose.model(
         prefRegion: Number, //-1 if none
         livingAtHome: Boolean,
         prefLocale: Number, //-1 if none
-        prefSummerClimate: String,
-        prefWinterClimate: String,
+        prefSummerClimate: Number,
+        prefWinterClimate: Number,
         //STUDENT LIFE (NEED MORE DATA)
         //SUCCESS (option to calculate)
         successImportance: Boolean,
@@ -236,6 +236,7 @@ function getWinterTemperature(zip) {
 }
 
 function getMajorScore(
+    totalWeight,
     majorCode,
     majorImportant,
     PCIP01,
@@ -281,230 +282,268 @@ function getMajorScore(
     switch (majorCode) {
         case "PCIP01":
             if (PCIP01 > 0) {
-                tempScore += 30;
-                if (majorImportant && PCIP01 * 100 > 20) tempScore += 30;
+                tempScore += totalWeight * 0.09318;
+                if (majorImportant && PCIP01 * 100 > 20)
+                    tempScore += totalWeight * 0.05317;
             }
             break;
         case "PCIP03":
             if (PCIP03 > 0) {
-                tempScore += 30;
-                if (majorImportant && PCIP03 * 100 > 20) tempScore += 30;
+                tempScore += totalWeight * 0.09318;
+                if (majorImportant && PCIP03 * 100 > 20)
+                    tempScore += totalWeight * 0.05317;
             }
             break;
         case "PCIP04":
             if (PCIP04 > 0) {
-                tempScore += 30;
-                if (majorImportant && PCIP04 * 100 > 20) tempScore += 30;
+                tempScore += totalWeight * 0.09318;
+                if (majorImportant && PCIP04 * 100 > 20)
+                    tempScore += totalWeight * 0.05317;
             }
             break;
         case "PCIP05":
             if (PCIP05 > 0) {
-                tempScore += 30;
-                if (majorImportant && PCIP05 * 100 > 20) tempScore += 30;
+                tempScore += totalWeight * 0.09318;
+                if (majorImportant && PCIP05 * 100 > 20)
+                    tempScore += totalWeight * 0.05317;
             }
             break;
         case "PCIP09":
             if (PCIP09 > 0) {
-                tempScore += 30;
-                if (majorImportant && PCIP09 * 100 > 20) tempScore += 30;
+                tempScore += totalWeight * 0.09318;
+                if (majorImportant && PCIP09 * 100 > 20)
+                    tempScore += totalWeight * 0.05317;
             }
             break;
         case "PCIP10":
             if (PCIP10 > 0) {
-                tempScore += 30;
-                if (majorImportant && PCIP10 * 100 > 20) tempScore += 30;
+                tempScore += totalWeight * 0.09318;
+                if (majorImportant && PCIP10 * 100 > 20)
+                    tempScore += totalWeight * 0.05317;
             }
             break;
         case "PCIP11":
             if (PCIP11 > 0) {
-                tempScore += 30;
-                if (majorImportant && PCIP11 * 100 > 20) tempScore += 30;
+                tempScore += totalWeight * 0.09318;
+                if (majorImportant && PCIP11 * 100 > 20)
+                    tempScore += totalWeight * 0.05317;
             }
             break;
         case "PCIP12":
             if (PCIP12 > 0) {
-                tempScore += 30;
-                if (majorImportant && PCIP12 * 100 > 20) tempScore += 30;
+                tempScore += totalWeight * 0.09318;
+                if (majorImportant && PCIP12 * 100 > 20)
+                    tempScore += totalWeight * 0.05317;
             }
             break;
         case "PCIP13":
             if (PCIP13 > 0) {
-                tempScore += 30;
-                if (majorImportant && PCIP13 * 100 > 20) tempScore += 30;
+                tempScore += totalWeight * 0.09318;
+                if (majorImportant && PCIP13 * 100 > 20)
+                    tempScore += totalWeight * 0.05317;
             }
             break;
         case "PCIP14":
             if (PCIP14 > 0) {
-                tempScore += 30;
-                if (majorImportant && PCIP14 * 100 > 20) tempScore += 30;
+                tempScore += totalWeight * 0.09318;
+                if (majorImportant && PCIP14 * 100 > 20)
+                    tempScore += totalWeight * 0.05317;
             }
             break;
         case "PCIP15":
             if (PCIP15 > 0) {
-                tempScore += 30;
-                if (majorImportant && PCIP15 * 100 > 20) tempScore += 30;
+                tempScore += totalWeight * 0.09318;
+                if (majorImportant && PCIP15 * 100 > 20)
+                    tempScore += totalWeight * 0.05317;
             }
             break;
         case "PCIP16":
             if (PCIP16 > 0) {
-                tempScore += 30;
-                if (majorImportant && PCIP16 * 100 > 20) tempScore += 30;
+                tempScore += totalWeight * 0.09318;
+                if (majorImportant && PCIP16 * 100 > 20)
+                    tempScore += totalWeight * 0.05317;
             }
             break;
         case "PCIP19":
             if (PCIP19 > 0) {
-                tempScore += 30;
-                if (majorImportant && PCIP19 * 100 > 20) tempScore += 30;
+                tempScore += totalWeight * 0.09318;
+                if (majorImportant && PCIP19 * 100 > 20)
+                    tempScore += totalWeight * 0.05317;
             }
             break;
         case "PCIP22":
             if (PCIP22 > 0) {
-                tempScore += 30;
-                if (majorImportant && PCIP22 * 100 > 20) tempScore += 30;
+                tempScore += totalWeight * 0.09318;
+                if (majorImportant && PCIP22 * 100 > 20)
+                    tempScore += totalWeight * 0.05317;
             }
             break;
         case "PCIP23":
             if (PCIP23 > 0) {
-                tempScore += 30;
-                if (majorImportant && PCIP23 * 100 > 20) tempScore += 30;
+                tempScore += totalWeight * 0.09318;
+                if (majorImportant && PCIP23 * 100 > 20)
+                    tempScore += totalWeight * 0.05317;
             }
             break;
         case "PCIP24":
             if (PCIP24 > 0) {
-                tempScore += 30;
-                if (majorImportant && PCIP24 * 100 > 20) tempScore += 30;
+                tempScore += totalWeight * 0.09318;
+                if (majorImportant && PCIP24 * 100 > 20)
+                    tempScore += totalWeight * 0.05317;
             }
             break;
         case "PCIP25":
             if (PCIP25 > 0) {
-                tempScore += 30;
-                if (majorImportant && PCIP25 * 100 > 20) tempScore += 30;
+                tempScore += totalWeight * 0.09318;
+                if (majorImportant && PCIP25 * 100 > 20)
+                    tempScore += totalWeight * 0.05317;
             }
             break;
         case "PCIP26":
             if (PCIP26 > 0) {
-                tempScore += 30;
-                if (majorImportant && PCIP26 * 100 > 20) tempScore += 30;
+                tempScore += totalWeight * 0.09318;
+                if (majorImportant && PCIP26 * 100 > 20)
+                    tempScore += totalWeight * 0.05317;
             }
             break;
         case "PCIP27":
             if (PCIP27 > 0) {
-                tempScore += 30;
-                if (majorImportant && PCIP27 * 100 > 20) tempScore += 30;
+                tempScore += totalWeight * 0.09318;
+                if (majorImportant && PCIP27 * 100 > 20)
+                    tempScore += totalWeight * 0.05317;
             }
             break;
         case "PCIP29":
             if (PCIP29 > 0) {
-                tempScore += 30;
-                if (majorImportant && PCIP29 * 100 > 20) tempScore += 30;
+                tempScore += totalWeight * 0.09318;
+                if (majorImportant && PCIP29 * 100 > 20)
+                    tempScore += totalWeight * 0.05317;
             }
             break;
         case "PCIP30":
             if (PCIP30 > 0) {
-                tempScore += 30;
-                if (majorImportant && PCIP30 * 100 > 20) tempScore += 30;
+                tempScore += totalWeight * 0.09318;
+                if (majorImportant && PCIP30 * 100 > 20)
+                    tempScore += totalWeight * 0.05317;
             }
             break;
         case "PCIP31":
             if (PCIP31 > 0) {
-                tempScore += 30;
-                if (majorImportant && PCIP31 * 100 > 20) tempScore += 30;
+                tempScore += totalWeight * 0.09318;
+                if (majorImportant && PCIP31 * 100 > 20)
+                    tempScore += totalWeight * 0.05317;
             }
             break;
         case "PCIP38":
             if (PCIP38 > 0) {
-                tempScore += 30;
-                if (majorImportant && PCIP38 * 100 > 20) tempScore += 30;
+                tempScore += totalWeight * 0.09318;
+                if (majorImportant && PCIP38 * 100 > 20)
+                    tempScore += totalWeight * 0.05317;
             }
             break;
         case "PCIP39":
             if (PCIP39 > 0) {
-                tempScore += 30;
-                if (majorImportant && PCIP39 * 100 > 20) tempScore += 30;
+                tempScore += totalWeight * 0.09318;
+                if (majorImportant && PCIP39 * 100 > 20)
+                    tempScore += totalWeight * 0.05317;
             }
             break;
         case "PCIP40":
             if (PCIP40 > 0) {
-                tempScore += 30;
-                if (majorImportant && PCIP40 * 100 > 20) tempScore += 30;
+                tempScore += totalWeight * 0.09318;
+                if (majorImportant && PCIP40 * 100 > 20)
+                    tempScore += totalWeight * 0.05317;
             }
             break;
         case "PCIP41":
             if (PCIP41 > 0) {
-                tempScore += 30;
-                if (majorImportant && PCIP41 * 100 > 20) tempScore += 30;
+                tempScore += totalWeight * 0.09318;
+                if (majorImportant && PCIP41 * 100 > 20)
+                    tempScore += totalWeight * 0.05317;
             }
             break;
         case "PCIP42":
             if (PCIP42 > 0) {
-                tempScore += 30;
-                if (majorImportant && PCIP42 * 100 > 20) tempScore += 30;
+                tempScore += totalWeight * 0.09318;
+                if (majorImportant && PCIP42 * 100 > 20)
+                    tempScore += totalWeight * 0.05317;
             }
             break;
         case "PCIP43":
             if (PCIP43 > 0) {
-                tempScore += 30;
-                if (majorImportant && PCIP43 * 100 > 20) tempScore += 30;
+                tempScore += totalWeight * 0.09318;
+                if (majorImportant && PCIP43 * 100 > 20)
+                    tempScore += totalWeight * 0.05317;
             }
             break;
         case "PCIP44":
             if (PCIP44 > 0) {
-                tempScore += 30;
-                if (majorImportant && PCIP44 * 100 > 20) tempScore += 30;
+                tempScore += totalWeight * 0.09318;
+                if (majorImportant && PCIP44 * 100 > 20)
+                    tempScore += totalWeight * 0.05317;
             }
             break;
         case "PCIP45":
             if (PCIP45 > 0) {
-                tempScore += 30;
-                if (majorImportant && PCIP45 * 100 > 20) tempScore += 30;
+                tempScore += totalWeight * 0.09318;
+                if (majorImportant && PCIP45 * 100 > 20)
+                    tempScore += totalWeight * 0.05317;
             }
             break;
         case "PCIP46":
             if (PCIP46 > 0) {
-                tempScore += 30;
-                if (majorImportant && PCIP46 * 100 > 20) tempScore += 30;
+                tempScore += totalWeight * 0.09318;
+                if (majorImportant && PCIP46 * 100 > 20)
+                    tempScore += totalWeight * 0.05317;
             }
             break;
         case "PCIP47":
             if (PCIP47 > 0) {
-                tempScore += 30;
-                if (majorImportant && PCIP47 * 100 > 20) tempScore += 30;
+                tempScore += totalWeight * 0.09318;
+                if (majorImportant && PCIP47 * 100 > 20)
+                    tempScore += totalWeight * 0.05317;
             }
             break;
         case "PCIP48":
             if (PCIP48 > 0) {
-                tempScore += 30;
-                if (majorImportant && PCIP48 * 100 > 20) tempScore += 30;
+                tempScore += totalWeight * 0.09318;
+                if (majorImportant && PCIP48 * 100 > 20)
+                    tempScore += totalWeight * 0.05317;
             }
             break;
         case "PCIP49":
             if (PCIP49 > 0) {
-                tempScore += 30;
-                if (majorImportant && PCIP49 * 100 > 20) tempScore += 30;
+                tempScore += 70;
+                if (majorImportant && PCIP49 * 100 > 20)
+                    tempScore += totalWeight * 0.05317;
             }
             break;
         case "PCIP50":
             if (PCIP50 > 0) {
-                tempScore += 30;
-                if (majorImportant && PCIP50 * 100 > 20) tempScore += 30;
+                tempScore += totalWeight * 0.09318;
+                if (majorImportant && PCIP50 * 100 > 20)
+                    tempScore += totalWeight * 0.05317;
             }
             break;
         case "PCIP51":
             if (PCIP51 > 0) {
-                tempScore += 30;
-                if (majorImportant && PCIP51 * 100 > 20) tempScore += 30;
+                tempScore += totalWeight * 0.09318;
+                if (majorImportant && PCIP51 * 100 > 20)
+                    tempScore += totalWeight * 0.05317;
             }
             break;
         case "PCIP52":
             if (PCIP52 > 0) {
-                tempScore += 30;
-                if (majorImportant && PCIP52 * 100 > 20) tempScore += 30;
+                tempScore += totalWeight * 0.09318;
+                if (majorImportant && PCIP52 * 100 > 20)
+                    tempScore += totalWeight * 0.05317;
             }
             break;
         case "PCIP54":
             if (PCIP54 > 0) {
-                tempScore += 30;
-                if (majorImportant && PCIP54 * 100 > 20) tempScore += 30;
+                tempScore += totalWeight * 0.09318;
+                if (majorImportant && PCIP54 * 100 > 20)
+                    tempScore += totalWeight * 0.05317;
             }
             break;
     }
@@ -586,64 +625,75 @@ function collegeScore(
     RELAFFIL,
     FEMALE
 ) {
+    let totalWeight = 750.0;
     let tempScore = 0.0;
-    tempScore += ((100 - ADM_RATE * 100) * prestiegeImportance) / 50;
-    tempScore += ((100 - ADM_RATE * 100) * internshipImportance) / 50;
-    tempScore += ((100 - ADM_RATE * 100) * studyAbroadImportance) / 50;
-    tempScore += ((100 - ADM_RATE * 100) * rigorImportance) / 50;
-    tempScore += ((100 - ADM_RATE * 100) * workStudyImportance) / 50;
-    tempScore += ((100 - ADM_RATE * 100) * academicResourcesImportance) / 50;
-    tempScore += ((100 - ADM_RATE * 100) * researchImportance) / 50;
+    tempScore +=
+        ((100 - ADM_RATE * 100) * prestiegeImportance) / (18667 / totalWeight);
+    tempScore +=
+        ((100 - ADM_RATE * 100) * internshipImportance) / (18667 / totalWeight);
+    tempScore +=
+        ((100 - ADM_RATE * 100) * studyAbroadImportance) /
+        (18667 / totalWeight);
+    tempScore +=
+        ((100 - ADM_RATE * 100) * rigorImportance) / (18667 / totalWeight);
+    tempScore +=
+        ((100 - ADM_RATE * 100) * workStudyImportance) / (18667 / totalWeight);
+    tempScore +=
+        ((100 - ADM_RATE * 100) * academicResourcesImportance) /
+        (18667 / totalWeight);
+    tempScore +=
+        ((100 - ADM_RATE * 100) * researchImportance) / (18667 / totalWeight);
     if (Math.abs(prefSize - UGDS) <= 3000) {
-        tempScore += 25;
+        tempScore += totalWeight * 0.067;
     }
     if (prefPublicControl && CONTROL == 1) {
-        tempScore += 15;
+        tempScore += totalWeight * 0.0467;
     }
     if (prefPrivateControl && CONTROL != 1) {
-        tempScore += 15;
+        tempScore += totalWeight * 0.0467;
     }
     if (hbcuImportance >= 4) {
         if (HBCU != 0) {
-            tempScore += 20;
+            tempScore += totalWeight * 0.053;
         }
     }
     if (coedImportance >= 4) {
         if (MENONLY == 0 && WOMENONLY == 0) {
-            tempScore += 20;
+            tempScore += totalWeight * 0.053;
         }
     }
     if (gender === "M" && MENONLY == 1 && sameGenderImportance >= 4) {
-        tempScore += 20;
+        tempScore += totalWeight * 0.0467;
     }
     if (gender === "F" && WOMENONLY == 1 && sameGenderImportance >= 4) {
-        tempScore += 20;
+        tempScore += totalWeight * 0.0467;
     }
     if (Math.abs(prefSexRatioF - FEMALE * 100) <= 5) {
-        tempScore += 10;
+        tempScore += totalWeight * 0.0467;
     }
     if (pref4yr) {
         if (ICLEVEL == 1) {
-            tempScore += 10;
+            tempScore += totalWeight * 0.0467;
         }
     }
     if (facilityImportance) {
         if (ENDOWBEGIN / UGDS >= 45000) {
-            tempScore += 10;
+            tempScore += totalWeight * 0.053;
         }
     }
     if (prefCommittedFaculty >= 4) {
         if (PFTFAC * 100 >= 55) {
-            tempScore += 10;
+            tempScore += totalWeight * 0.0467;
         }
     }
     if (prefHighestDegree == HIGHDEG) {
-        tempScore += 30;
+        tempScore += totalWeight * 0.067;
     }
     if (prefReligious && prefReligion == RELAFFIL) {
-        tempScore += 20;
+        tempScore += totalWeight * 0.0467;
     }
     tempScore += getMajorScore(
+        totalWeight,
         prefMajor,
         majorProminenceImportance,
         PCIP01,
@@ -698,16 +748,17 @@ function costScore(
     PCTPELL,
     PCTFLOAN
 ) {
+    let totalWeight = 150.0;
     let tempScore = 0.0;
     if (costImportance) {
         if (prefCOA + 10000 >= COSTT4_A) {
-            tempScore += 70;
+            tempScore += totalWeight * 0.467;
         }
         if (income * 0.47 >= COSTT4_A || income >= MEDIAN_HH_INC) {
-            tempScore += 40;
+            tempScore += totalWeight * 0.267;
         }
         if (federalAidImportance && PCTPELL >= 0.33 && PCTFLOAN >= 0.33) {
-            tempScore += 40;
+            tempScore += totalWeight * 0.266;
         }
     }
     return tempScore;
@@ -729,33 +780,34 @@ function locationScore(
     prefWinterClimate,
     ZIP
 ) {
+    let totalWeight = 350.0;
     let tempScore = 0.0;
     if (locationImportance) {
         if (prefCity === CITY) {
-            tempScore += 40;
+            tempScore += totalWeight * 0.129;
         }
         if (prefState === STABBR) {
-            tempScore += 60;
+            tempScore += totalWeight * 0.186;
         }
         if (curState === STABBR) {
-            tempScore += 20;
+            tempScore += totalWeight * 0.071;
         }
         if (prefRegion == REGION) {
-            tempScore += 70;
+            tempScore += totalWeight * 0.214;
         }
         if (livingAtHome) {
-            if (curState === STABBR) {
-                tempScore -= 200; //ESSENTIALLY REMOVES THE COLLEGE FROM CONTENTION
+            if (curState != STABBR) {
+                tempScore -= totalWeight; //ESSENTIALLY REMOVES THE COLLEGE FROM CONTENTION
             }
         }
         if (prefLocale == LOCALE) {
-            tempScore += 50;
+            tempScore += totalWeight * 0.171;
         }
         if (Math.abs(prefSummerClimate - getSummerTemperature(ZIP)) < 10) {
-            tempScore += 40;
+            tempScore += totalWeight * 0.115;
         }
         if (Math.abs(prefWinterClimate - getWinterTemperature(ZIP)) < 10) {
-            tempScore += 40;
+            tempScore += totalWeight * 0.114;
         }
     }
     return tempScore;
@@ -774,25 +826,26 @@ function successScore(
     MD_EARN_WNE_P6,
     ADM_RATE
 ) {
+    let totalWeight = 200.0;
     let tempScore = 0.0;
     if (successImportance) {
         if (retentionRateImportance && prefRetentionRate / 100 <= RET_FT4) {
-            tempScore += 40;
+            tempScore += totalWeight * 0.225;
         }
         if (
             graduationRateImportance &&
             prefGraduationRate / 100 <= COMP_ORIG_YR4_RT
         ) {
-            tempScore += 40;
+            tempScore += totalWeight * 0.225;
         }
         if (alumniCarreerImportance) {
-            tempScore += (100 - ADM_RATE) / 5;
+            tempScore += (100 - ADM_RATE) / (400 / totalWeight);
         }
         if (
             Math.abs(desiredEarnings - MD_EARN_WNE_P6) <= 10000 ||
             desiredEarnings <= MD_EARN_WNE_P6
         ) {
-            tempScore += 60;
+            tempScore += totalWeight * 0.3;
         }
     }
     return tempScore;
