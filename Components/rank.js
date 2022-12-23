@@ -1,5 +1,4 @@
-//EXPRESS AND MONGO SETUP
-const express = require("express");
+//MONGO SETUP
 const mongoose = require("mongoose");
 mongoose.connect(
     "mongodb+srv://admin:O8GrEZkLMDYKA1Iz@cluster0.lcd3jzt.mongodb.net/colleges?retryWrites=true&w=majority",
@@ -10,29 +9,10 @@ mongoose.connect(
 );
 const connection = mongoose.connection;
 connection.useDb("colleges");
-const app = express();
-app.use(express.json());
-
-//LIST MODEL
-const Lists = mongoose.model(
-    "Lists",
-    {
-        //GENERAL
-        id: String,
-        //LOCATION
-        safeties: [String],
-        targets: [String],
-        reaches: [String],
-        fs: [Number],
-        ft: [Number],
-        fr: [Number],
-    },
-    "individual_data"
-);
 
 //COLLEGE MODEL
-const Colleges = mongoose.model(
-    "Colleges",
+const CollegeMod = mongoose.model(
+    "CollegeMod",
     {
         //GENERAL
         INSTNM: String,
@@ -108,72 +88,12 @@ const Colleges = mongoose.model(
     "raw_data"
 );
 
+//LISTS MODEL
+const applicantImps = require("./applicant");
+const Lists = applicantImps.Lists;
+
 //INDIVIDUAL MODEL
-const Individual = mongoose.model(
-    "Individual",
-    {
-        //GENERAL
-        id: String,
-        //COLLEGE (always calculates)
-        prestiegeImportance: Number, //0-5
-        internshipImportance: Number, //0-5
-        studyAbroadImportance: Number, //0-5
-        rigorImportance: Number, //0-5
-        workStudyImportance: Number, //0-5
-        academicResourcesImportance: Number, //0-5
-        researchImportance: Number, //0-5
-        prefSize: Number,
-        prefCommittedFaculty: Number, //0-5
-        facilityImportance: Boolean,
-        prefPublicControl: Boolean,
-        prefPrivateControl: Boolean,
-        prefSexRatioF: Number, //out of 100%
-        prefMajor: String, //Make data a PCIP value
-        prefHighestDegree: Number,
-        prefReligious: Boolean,
-        prefRelgion: Number,
-        pref4yr: Boolean,
-        gender: String,
-        sameGenderImportance: Number, //0-5
-        hbcuImportance: Number,
-        coedImportance: Number,
-        majorProminenceImportance: Boolean,
-        //COST (option to calculate)
-        costImportance: Boolean,
-        prefCOA: Number, //0 if none => (won't update any)
-        income: Number, //Household => 0 if none (won't update any)
-        federalAidImportance: Boolean,
-        //FILTER (NEED MORE DATA)
-        //FOOD (NEED MORE DATA)
-        //LOCATION (option to calculate)
-        locationImportance: Boolean,
-        ZIP: Number,
-        curState: String,
-        prefCity: String,
-        prefState: String,
-        prefRegion: Number, //-1 if none
-        livingAtHome: Boolean,
-        prefLocale: Number, //-1 if none
-        prefSummerClimate: Number,
-        prefWinterClimate: Number,
-        //STUDENT LIFE (NEED MORE DATA)
-        //SUCCESS (option to calculate)
-        successImportance: Boolean,
-        retentionRateImportance: Boolean,
-        prefRetentionRate: Number, //minimum 4yr
-        graduationRateImportance: Boolean,
-        prefGraduationRate: Number, //minimum 4yr
-        alumniCarreerImportance: Boolean,
-        desiredEarnings: Number, //6yrs after entry
-        //TRANSPORTATION (NEED MORE DATA)
-        //WEIGHTS
-        collegeWeight: Number, //1-3 (not important, neutral, very important)
-        costWeight: Number,
-        locationWeight: Number,
-        successWeight: Number,
-    },
-    "test"
-);
+const Individual = applicantImps.Individual;
 
 //SUMMER TEMPERATURE FUNCTION
 function getSummerTemperature(zip) {
@@ -851,470 +771,6 @@ function successScore(
     return tempScore;
 }
 
-//API CALL RESULT
-app.get("/test/:id", async (req, res) => {
-    try {
-        const id = req.params.id; //GETS ID FROM API CALL URL
-        const individual = await Individual.findOne({ id }); //GETS DOCUMENT ASSOCIATED WITH THE ID
-        const lists = await Lists.findOne({ id });
-        let safetiesArr = [];
-        let targetsArr = [];
-        let reachesArr = [];
-
-        //SAFETIES
-        lists.safeties.forEach(async (col) => {
-            //FINDS COLLEGE DATA ASSOCIATED WITH NAME
-            let college = await Colleges.findOne({ INSTNM: col });
-
-            //COLLEGE
-            let tempCollegeScore = collegeScore(
-                college.ADM_RATE,
-                individual.prestiegeImportance,
-                individual.internshipImportance,
-                individual.studyAbroadImportance,
-                individual.rigorImportance,
-                individual.workStudyImportance,
-                individual.academicResourcesImportance,
-                individual.researchImportance,
-                individual.prefSize,
-                individual.prefPublicControl,
-                individual.prefPrivateControl,
-                individual.hbcuImportance,
-                individual.coedImportance,
-                individual.sameGenderImportance,
-                individual.gender,
-                individual.prefSexRatioF,
-                individual.pref4yr,
-                individual.facilityImportance,
-                individual.prefCommittedFaculty,
-                individual.prefHighestDegree,
-                individual.prefReligious,
-                individual.prefReligion,
-                individual.majorProminenceImportance,
-                individual.prefMajor,
-                college.PCIP01,
-                college.PCIP03,
-                college.PCIP04,
-                college.PCIP05,
-                college.PCIP09,
-                college.PCIP10,
-                college.PCIP11,
-                college.PCIP12,
-                college.PCIP13,
-                college.PCIP14,
-                college.PCIP15,
-                college.PCIP16,
-                college.PCIP19,
-                college.PCIP22,
-                college.PCIP23,
-                college.PCIP24,
-                college.PCIP25,
-                college.PCIP26,
-                college.PCIP27,
-                college.PCIP29,
-                college.PCIP30,
-                college.PCIP31,
-                college.PCIP38,
-                college.PCIP39,
-                college.PCIP40,
-                college.PCIP41,
-                college.PCIP42,
-                college.PCIP43,
-                college.PCIP44,
-                college.PCIP45,
-                college.PCIP46,
-                college.PCIP47,
-                college.PCIP48,
-                college.PCIP49,
-                college.PCIP50,
-                college.PCIP51,
-                college.PCIP52,
-                college.PCIP54,
-                college.UGDS,
-                college.CONTROL,
-                college.HBCU,
-                college.MENONLY,
-                college.WOMENONLY,
-                college.ICLEVEL,
-                college.ENDOWBEGIN,
-                college.PFTFAC,
-                college.HIGHDEG,
-                college.RELAFFIL,
-                college.FEMALE
-            );
-            //COST
-            let tempCostScore = costScore(
-                individual.costImportance,
-                individual.prefCOA,
-                college.COSTT4_A,
-                individual.income,
-                college.MEDIAN_HH_INC,
-                individual.federalAidImportance,
-                college.PCTPELL,
-                college.PCTFLOAN
-            );
-            //LOCATION
-            let tempLocationScore = locationScore(
-                individual.locationImportance,
-                individual.prefCity,
-                college.CITY,
-                individual.prefState,
-                college.STABBR,
-                individual.curState,
-                individual.prefRegion,
-                college.REGION,
-                individual.livingAtHome,
-                individual.prefLocale,
-                college.LOCALE,
-                individual.prefSummerClimate,
-                individual.prefWinterClimate,
-                college.ZIP
-            );
-            //SUCCESS
-            let tempSuccessScore = successScore(
-                individual.successImportance,
-                individual.retentionRateImportance,
-                individual.prefRetentionRate,
-                college.RET_FT4,
-                individual.graduationRateImportance,
-                individual.prefGraduationRate,
-                college.COMP_ORIG_YR4_RT,
-                individual.alumniCarreerImportance,
-                individual.desiredEarnings,
-                college.MD_EARN_WNE_P6,
-                college.ADM_RATE
-            );
-            let totalScore =
-                individual.costWeight * tempCostScore +
-                individual.locationWeight * tempLocationScore +
-                individual.successWeight * tempSuccessScore +
-                individual.collegeWeight * tempCollegeScore +
-                Math.random();
-            //MATH.random() to ensure no duplicate keys
-            safetiesArr.push(totalScore);
-            await doAsyncWork(totalScore); //stalls insertion until done with loop
-        });
-        //ADDS SAFETY SCORES TO MONGODB
-        await Promise.all(lists.safeties.map((col) => doAsyncWork(col))).then(
-            () => {
-                // Create a new document with the array field
-                lists.set("fs", safetiesArr);
-
-                // Save the document to the database
-                lists.save(function (error) {
-                    if (error) {
-                        console.log(error);
-                    } else {
-                        console.log("Document saved successfully!");
-                    }
-                });
-            }
-        );
-        //TARGETS
-        lists.targets.forEach(async (col) => {
-            //FINDS COLLEGE DATA ASSOCIATED WITH NAME
-            let college = await Colleges.findOne({ INSTNM: col });
-
-            //COLLEGE
-            let tempCollegeScore = collegeScore(
-                college.ADM_RATE,
-                individual.prestiegeImportance,
-                individual.internshipImportance,
-                individual.studyAbroadImportance,
-                individual.rigorImportance,
-                individual.workStudyImportance,
-                individual.academicResourcesImportance,
-                individual.researchImportance,
-                individual.prefSize,
-                individual.prefPublicControl,
-                individual.prefPrivateControl,
-                individual.hbcuImportance,
-                individual.coedImportance,
-                individual.sameGenderImportance,
-                individual.gender,
-                individual.prefSexRatioF,
-                individual.pref4yr,
-                individual.facilityImportance,
-                individual.prefCommittedFaculty,
-                individual.prefHighestDegree,
-                individual.prefReligious,
-                individual.prefReligion,
-                individual.majorProminenceImportance,
-                individual.prefMajor,
-                college.PCIP01,
-                college.PCIP03,
-                college.PCIP04,
-                college.PCIP05,
-                college.PCIP09,
-                college.PCIP10,
-                college.PCIP11,
-                college.PCIP12,
-                college.PCIP13,
-                college.PCIP14,
-                college.PCIP15,
-                college.PCIP16,
-                college.PCIP19,
-                college.PCIP22,
-                college.PCIP23,
-                college.PCIP24,
-                college.PCIP25,
-                college.PCIP26,
-                college.PCIP27,
-                college.PCIP29,
-                college.PCIP30,
-                college.PCIP31,
-                college.PCIP38,
-                college.PCIP39,
-                college.PCIP40,
-                college.PCIP41,
-                college.PCIP42,
-                college.PCIP43,
-                college.PCIP44,
-                college.PCIP45,
-                college.PCIP46,
-                college.PCIP47,
-                college.PCIP48,
-                college.PCIP49,
-                college.PCIP50,
-                college.PCIP51,
-                college.PCIP52,
-                college.PCIP54,
-                college.UGDS,
-                college.CONTROL,
-                college.HBCU,
-                college.MENONLY,
-                college.WOMENONLY,
-                college.ICLEVEL,
-                college.ENDOWBEGIN,
-                college.PFTFAC,
-                college.HIGHDEG,
-                college.RELAFFIL,
-                college.FEMALE
-            );
-            //COST
-            let tempCostScore = costScore(
-                individual.costImportance,
-                individual.prefCOA,
-                college.COSTT4_A,
-                individual.income,
-                college.MEDIAN_HH_INC,
-                individual.federalAidImportance,
-                college.PCTPELL,
-                college.PCTFLOAN
-            );
-            //LOCATION
-            let tempLocationScore = locationScore(
-                individual.locationImportance,
-                individual.prefCity,
-                college.CITY,
-                individual.prefState,
-                college.STABBR,
-                individual.curState,
-                individual.prefRegion,
-                college.REGION,
-                individual.livingAtHome,
-                individual.prefLocale,
-                college.LOCALE,
-                individual.prefSummerClimate,
-                individual.prefWinterClimate,
-                college.ZIP
-            );
-            //SUCCESS
-            let tempSuccessScore = successScore(
-                individual.successImportance,
-                individual.retentionRateImportance,
-                individual.prefRetentionRate,
-                college.RET_FT4,
-                individual.graduationRateImportance,
-                individual.prefGraduationRate,
-                college.COMP_ORIG_YR4_RT,
-                individual.alumniCarreerImportance,
-                individual.desiredEarnings,
-                college.MD_EARN_WNE_P6,
-                college.ADM_RATE
-            );
-            let totalScore =
-                individual.costWeight * tempCostScore +
-                individual.locationWeight * tempLocationScore +
-                individual.successWeight * tempSuccessScore +
-                individual.collegeWeight * tempCollegeScore +
-                Math.random();
-            //MATH.random() to ensure no duplicate keys
-            targetsArr.push(totalScore);
-            await doAsyncWork(totalScore); //stalls insertion until done with loop
-        });
-        //ADDS TARGET SCORES TO MONGODB
-        await Promise.all(lists.targets.map((col) => doAsyncWork(col))).then(
-            () => {
-                // Create a new document with the array field
-                lists.set("ft", targetsArr);
-
-                // Save the document to the database
-                lists.save(function (error) {
-                    if (error) {
-                        console.log(error);
-                    } else {
-                        console.log("Document saved successfully!");
-                    }
-                });
-            }
-        );
-        //REACHES
-        lists.reaches.forEach(async (col) => {
-            //FINDS COLLEGE DATA ASSOCIATED WITH NAME
-            let college = await Colleges.findOne({ INSTNM: col });
-
-            //COLLEGE
-            let tempCollegeScore = collegeScore(
-                college.ADM_RATE,
-                individual.prestiegeImportance,
-                individual.internshipImportance,
-                individual.studyAbroadImportance,
-                individual.rigorImportance,
-                individual.workStudyImportance,
-                individual.academicResourcesImportance,
-                individual.researchImportance,
-                individual.prefSize,
-                individual.prefPublicControl,
-                individual.prefPrivateControl,
-                individual.hbcuImportance,
-                individual.coedImportance,
-                individual.sameGenderImportance,
-                individual.gender,
-                individual.prefSexRatioF,
-                individual.pref4yr,
-                individual.facilityImportance,
-                individual.prefCommittedFaculty,
-                individual.prefHighestDegree,
-                individual.prefReligious,
-                individual.prefReligion,
-                individual.majorProminenceImportance,
-                individual.prefMajor,
-                college.PCIP01,
-                college.PCIP03,
-                college.PCIP04,
-                college.PCIP05,
-                college.PCIP09,
-                college.PCIP10,
-                college.PCIP11,
-                college.PCIP12,
-                college.PCIP13,
-                college.PCIP14,
-                college.PCIP15,
-                college.PCIP16,
-                college.PCIP19,
-                college.PCIP22,
-                college.PCIP23,
-                college.PCIP24,
-                college.PCIP25,
-                college.PCIP26,
-                college.PCIP27,
-                college.PCIP29,
-                college.PCIP30,
-                college.PCIP31,
-                college.PCIP38,
-                college.PCIP39,
-                college.PCIP40,
-                college.PCIP41,
-                college.PCIP42,
-                college.PCIP43,
-                college.PCIP44,
-                college.PCIP45,
-                college.PCIP46,
-                college.PCIP47,
-                college.PCIP48,
-                college.PCIP49,
-                college.PCIP50,
-                college.PCIP51,
-                college.PCIP52,
-                college.PCIP54,
-                college.UGDS,
-                college.CONTROL,
-                college.HBCU,
-                college.MENONLY,
-                college.WOMENONLY,
-                college.ICLEVEL,
-                college.ENDOWBEGIN,
-                college.PFTFAC,
-                college.HIGHDEG,
-                college.RELAFFIL,
-                college.FEMALE
-            );
-            //COST
-            let tempCostScore = costScore(
-                individual.costImportance,
-                individual.prefCOA,
-                college.COSTT4_A,
-                individual.income,
-                college.MEDIAN_HH_INC,
-                individual.federalAidImportance,
-                college.PCTPELL,
-                college.PCTFLOAN
-            );
-            //LOCATION
-            let tempLocationScore = locationScore(
-                individual.locationImportance,
-                individual.prefCity,
-                college.CITY,
-                individual.prefState,
-                college.STABBR,
-                individual.curState,
-                individual.prefRegion,
-                college.REGION,
-                individual.livingAtHome,
-                individual.prefLocale,
-                college.LOCALE,
-                individual.prefSummerClimate,
-                individual.prefWinterClimate,
-                college.ZIP
-            );
-            //SUCCESS
-            let tempSuccessScore = successScore(
-                individual.successImportance,
-                individual.retentionRateImportance,
-                individual.prefRetentionRate,
-                college.RET_FT4,
-                individual.graduationRateImportance,
-                individual.prefGraduationRate,
-                college.COMP_ORIG_YR4_RT,
-                individual.alumniCarreerImportance,
-                individual.desiredEarnings,
-                college.MD_EARN_WNE_P6,
-                college.ADM_RATE
-            );
-            let totalScore =
-                individual.costWeight * tempCostScore +
-                individual.locationWeight * tempLocationScore +
-                individual.successWeight * tempSuccessScore +
-                individual.collegeWeight * tempCollegeScore +
-                Math.random();
-            //MATH.random() to ensure no duplicate keys
-            reachesArr.push(totalScore);
-            await doAsyncWork(totalScore); //stalls insertion until done with loop
-        });
-        //ADDS REACH SCORES TO MONGODB
-        await Promise.all(lists.reaches.map((col) => doAsyncWork(col))).then(
-            () => {
-                // Create a new document with the array field
-                lists.set("fr", reachesArr);
-
-                // Save the document to the database
-                lists.save(function (error) {
-                    if (error) {
-                        console.log(error);
-                    } else {
-                        console.log("Document saved successfully!");
-                    }
-                });
-            }
-        );
-        res.json(0); //TEMPORARY OUTPUT
-    } catch (error) {
-        console.error(error);
-        res.status(500).send("Error fetching item");
-    }
-});
-
 async function doAsyncWork(item) {
     //BANDAID FIX ATM
     return new Promise((resolve) => {
@@ -1324,6 +780,465 @@ async function doAsyncWork(item) {
     });
 }
 
-app.listen(3000, () => {
-    console.log("API server listening on port 3000");
-});
+let safetiesArr = [2000].fill(0);
+let targetsArr = [2000].fill(0);
+let reachesArr = [2000].fill(0);
+
+//API CALL RESULT
+async function rankCols(i_d) {
+    const id = i_d; //GETS ID FROM API CALL URL
+    const individual = await Individual.findOne({ id }); //GETS DOCUMENT ASSOCIATED WITH THE ID
+    const lists = await Lists.findOne({ id });
+    safetiesArr.length = lists.safeties.length;
+    targetsArr.length = lists.targets.length;
+    reachesArr.length = lists.reaches.length;
+    let i = 0;
+    //SAFETIES
+    lists.safeties.forEach(async (col) => {
+        //FINDS COLLEGE DATA ASSOCIATED WITH NAME
+        let college = await CollegeMod.findOne({ INSTNM: col });
+
+        //COLLEGE
+        let tempCollegeScore = collegeScore(
+            college.ADM_RATE,
+            individual.collegePrefs.prestiegeImportance,
+            individual.collegePrefs.internshipImportance,
+            individual.collegePrefs.studyAbroadImportance,
+            individual.collegePrefs.rigorImportance,
+            individual.collegePrefs.workStudyImportance,
+            individual.collegePrefs.academicResourcesImportance,
+            individual.collegePrefs.researchImportance,
+            individual.collegePrefs.prefSize,
+            individual.collegePrefs.prefPublicControl,
+            individual.collegePrefs.prefPrivateControl,
+            individual.collegePrefs.hbcuImportance,
+            individual.collegePrefs.coedImportance,
+            individual.collegePrefs.sameGenderImportance,
+            individual.collegePrefs.gender,
+            individual.collegePrefs.prefSexRatioF,
+            individual.collegePrefs.pref4yr,
+            individual.collegePrefs.facilityImportance,
+            individual.collegePrefs.prefCommittedFaculty,
+            individual.collegePrefs.prefHighestDegree,
+            individual.collegePrefs.prefReligious,
+            individual.collegePrefs.prefReligion,
+            individual.collegePrefs.majorProminenceImportance,
+            individual.collegePrefs.prefMajor,
+            college.PCIP01,
+            college.PCIP03,
+            college.PCIP04,
+            college.PCIP05,
+            college.PCIP09,
+            college.PCIP10,
+            college.PCIP11,
+            college.PCIP12,
+            college.PCIP13,
+            college.PCIP14,
+            college.PCIP15,
+            college.PCIP16,
+            college.PCIP19,
+            college.PCIP22,
+            college.PCIP23,
+            college.PCIP24,
+            college.PCIP25,
+            college.PCIP26,
+            college.PCIP27,
+            college.PCIP29,
+            college.PCIP30,
+            college.PCIP31,
+            college.PCIP38,
+            college.PCIP39,
+            college.PCIP40,
+            college.PCIP41,
+            college.PCIP42,
+            college.PCIP43,
+            college.PCIP44,
+            college.PCIP45,
+            college.PCIP46,
+            college.PCIP47,
+            college.PCIP48,
+            college.PCIP49,
+            college.PCIP50,
+            college.PCIP51,
+            college.PCIP52,
+            college.PCIP54,
+            college.UGDS,
+            college.CONTROL,
+            college.HBCU,
+            college.MENONLY,
+            college.WOMENONLY,
+            college.ICLEVEL,
+            college.ENDOWBEGIN,
+            college.PFTFAC,
+            college.HIGHDEG,
+            college.RELAFFIL,
+            college.FEMALE
+        );
+        //COST
+        let tempCostScore = costScore(
+            individual.costPrefs.costImportance,
+            individual.costPrefs.prefCOA,
+            college.COSTT4_A,
+            individual.costPrefs.income,
+            college.MEDIAN_HH_INC,
+            individual.costPrefs.federalAidImportance,
+            college.PCTPELL,
+            college.PCTFLOAN
+        );
+        //LOCATION
+        let tempLocationScore = locationScore(
+            individual.locationPrefs.locationImportance,
+            individual.locationPrefs.prefCity,
+            college.CITY,
+            individual.locationPrefs.prefState,
+            college.STABBR,
+            individual.locationPrefs.curState,
+            individual.locationPrefs.prefRegion,
+            college.REGION,
+            individual.locationPrefs.livingAtHome,
+            individual.locationPrefs.prefLocale,
+            college.LOCALE,
+            individual.locationPrefs.prefSummerClimate,
+            individual.locationPrefs.prefWinterClimate,
+            college.ZIP
+        );
+        //SUCCESS
+        let tempSuccessScore = successScore(
+            individual.successPrefs.successImportance,
+            individual.successPrefs.retentionRateImportance,
+            individual.successPrefs.prefRetentionRate,
+            college.RET_FT4,
+            individual.successPrefs.graduationRateImportance,
+            individual.successPrefs.prefGraduationRate,
+            college.COMP_ORIG_YR4_RT,
+            individual.successPrefs.alumniCarreerImportance,
+            individual.successPrefs.desiredEarnings,
+            college.MD_EARN_WNE_P6,
+            college.ADM_RATE
+        );
+        let totalScore =
+            individual.weights.costWeight * tempCostScore +
+            individual.weights.locationWeight * tempLocationScore +
+            individual.weights.successWeight * tempSuccessScore +
+            individual.weights.collegeWeight * tempCollegeScore +
+            Math.random();
+        //MATH.random() to ensure no duplicate keys
+        let pos = lists.safeties.indexOf(col);
+        safetiesArr[pos] = totalScore;
+        await doAsyncWork(totalScore); //stalls insertion until done with loop
+    });
+    //ADDS SAFETY SCORES TO MONGODB
+    await Promise.all(lists.safeties.map((col) => doAsyncWork(col))).then(
+        () => {
+            // Create a new document with the array field
+            lists.set("fs", safetiesArr);
+
+            // Save the document to the database
+            lists.save(function (error) {
+                if (error) {
+                    console.log(error);
+                } else {
+                    console.log("Document saved successfully!");
+                }
+            });
+        }
+    );
+    //TARGETS
+    lists.targets.forEach(async (col) => {
+        //FINDS COLLEGE DATA ASSOCIATED WITH NAME
+        let college = await CollegeMod.findOne({ INSTNM: col });
+
+        //COLLEGE
+        let tempCollegeScore = collegeScore(
+            college.ADM_RATE,
+            individual.collegePrefs.prestiegeImportance,
+            individual.collegePrefs.internshipImportance,
+            individual.collegePrefs.studyAbroadImportance,
+            individual.collegePrefs.rigorImportance,
+            individual.collegePrefs.workStudyImportance,
+            individual.collegePrefs.academicResourcesImportance,
+            individual.collegePrefs.researchImportance,
+            individual.collegePrefs.prefSize,
+            individual.collegePrefs.prefPublicControl,
+            individual.collegePrefs.prefPrivateControl,
+            individual.collegePrefs.hbcuImportance,
+            individual.collegePrefs.coedImportance,
+            individual.collegePrefs.sameGenderImportance,
+            individual.collegePrefs.gender,
+            individual.collegePrefs.prefSexRatioF,
+            individual.collegePrefs.pref4yr,
+            individual.collegePrefs.facilityImportance,
+            individual.collegePrefs.prefCommittedFaculty,
+            individual.collegePrefs.prefHighestDegree,
+            individual.collegePrefs.prefReligious,
+            individual.collegePrefs.prefReligion,
+            individual.collegePrefs.majorProminenceImportance,
+            individual.collegePrefs.prefMajor,
+            college.PCIP01,
+            college.PCIP03,
+            college.PCIP04,
+            college.PCIP05,
+            college.PCIP09,
+            college.PCIP10,
+            college.PCIP11,
+            college.PCIP12,
+            college.PCIP13,
+            college.PCIP14,
+            college.PCIP15,
+            college.PCIP16,
+            college.PCIP19,
+            college.PCIP22,
+            college.PCIP23,
+            college.PCIP24,
+            college.PCIP25,
+            college.PCIP26,
+            college.PCIP27,
+            college.PCIP29,
+            college.PCIP30,
+            college.PCIP31,
+            college.PCIP38,
+            college.PCIP39,
+            college.PCIP40,
+            college.PCIP41,
+            college.PCIP42,
+            college.PCIP43,
+            college.PCIP44,
+            college.PCIP45,
+            college.PCIP46,
+            college.PCIP47,
+            college.PCIP48,
+            college.PCIP49,
+            college.PCIP50,
+            college.PCIP51,
+            college.PCIP52,
+            college.PCIP54,
+            college.UGDS,
+            college.CONTROL,
+            college.HBCU,
+            college.MENONLY,
+            college.WOMENONLY,
+            college.ICLEVEL,
+            college.ENDOWBEGIN,
+            college.PFTFAC,
+            college.HIGHDEG,
+            college.RELAFFIL,
+            college.FEMALE
+        );
+        //COST
+        let tempCostScore = costScore(
+            individual.costPrefs.costImportance,
+            individual.costPrefs.prefCOA,
+            college.COSTT4_A,
+            individual.costPrefs.income,
+            college.MEDIAN_HH_INC,
+            individual.costPrefs.federalAidImportance,
+            college.PCTPELL,
+            college.PCTFLOAN
+        );
+        //LOCATION
+        let tempLocationScore = locationScore(
+            individual.locationPrefs.locationImportance,
+            individual.locationPrefs.prefCity,
+            college.CITY,
+            individual.locationPrefs.prefState,
+            college.STABBR,
+            individual.locationPrefs.curState,
+            individual.locationPrefs.prefRegion,
+            college.REGION,
+            individual.locationPrefs.livingAtHome,
+            individual.locationPrefs.prefLocale,
+            college.LOCALE,
+            individual.locationPrefs.prefSummerClimate,
+            individual.locationPrefs.prefWinterClimate,
+            college.ZIP
+        );
+        //SUCCESS
+        let tempSuccessScore = successScore(
+            individual.successPrefs.successImportance,
+            individual.successPrefs.retentionRateImportance,
+            individual.successPrefs.prefRetentionRate,
+            college.RET_FT4,
+            individual.successPrefs.graduationRateImportance,
+            individual.successPrefs.prefGraduationRate,
+            college.COMP_ORIG_YR4_RT,
+            individual.successPrefs.alumniCarreerImportance,
+            individual.successPrefs.desiredEarnings,
+            college.MD_EARN_WNE_P6,
+            college.ADM_RATE
+        );
+        let totalScore =
+            individual.weights.costWeight * tempCostScore +
+            individual.weights.locationWeight * tempLocationScore +
+            individual.weights.successWeight * tempSuccessScore +
+            individual.weights.collegeWeight * tempCollegeScore +
+            Math.random();
+        //MATH.random() to ensure no duplicate keys
+        let pos = lists.targets.indexOf(col);
+        targetsArr[pos] = totalScore;
+        await doAsyncWork(totalScore); //stalls insertion until done with loop
+    });
+    //ADDS TARGET SCORES TO MONGODB
+    await Promise.all(lists.targets.map((col) => doAsyncWork(col))).then(() => {
+        // Create a new document with the array field
+        lists.set("ft", targetsArr);
+
+        // Save the document to the database
+        lists.save(function (error) {
+            if (error) {
+                console.log(error);
+            } else {
+                console.log("Document saved successfully!");
+            }
+        });
+    });
+    //REACHES
+    lists.reaches.forEach(async (col) => {
+        //FINDS COLLEGE DATA ASSOCIATED WITH NAME
+        let college = await CollegeMod.findOne({ INSTNM: col });
+
+        //COLLEGE
+        let tempCollegeScore = collegeScore(
+            college.ADM_RATE,
+            individual.collegePrefs.prestiegeImportance,
+            individual.collegePrefs.internshipImportance,
+            individual.collegePrefs.studyAbroadImportance,
+            individual.collegePrefs.rigorImportance,
+            individual.collegePrefs.workStudyImportance,
+            individual.collegePrefs.academicResourcesImportance,
+            individual.collegePrefs.researchImportance,
+            individual.collegePrefs.prefSize,
+            individual.collegePrefs.prefPublicControl,
+            individual.collegePrefs.prefPrivateControl,
+            individual.collegePrefs.hbcuImportance,
+            individual.collegePrefs.coedImportance,
+            individual.collegePrefs.sameGenderImportance,
+            individual.collegePrefs.gender,
+            individual.collegePrefs.prefSexRatioF,
+            individual.collegePrefs.pref4yr,
+            individual.collegePrefs.facilityImportance,
+            individual.collegePrefs.prefCommittedFaculty,
+            individual.collegePrefs.prefHighestDegree,
+            individual.collegePrefs.prefReligious,
+            individual.collegePrefs.prefReligion,
+            individual.collegePrefs.majorProminenceImportance,
+            individual.collegePrefs.prefMajor,
+            college.PCIP01,
+            college.PCIP03,
+            college.PCIP04,
+            college.PCIP05,
+            college.PCIP09,
+            college.PCIP10,
+            college.PCIP11,
+            college.PCIP12,
+            college.PCIP13,
+            college.PCIP14,
+            college.PCIP15,
+            college.PCIP16,
+            college.PCIP19,
+            college.PCIP22,
+            college.PCIP23,
+            college.PCIP24,
+            college.PCIP25,
+            college.PCIP26,
+            college.PCIP27,
+            college.PCIP29,
+            college.PCIP30,
+            college.PCIP31,
+            college.PCIP38,
+            college.PCIP39,
+            college.PCIP40,
+            college.PCIP41,
+            college.PCIP42,
+            college.PCIP43,
+            college.PCIP44,
+            college.PCIP45,
+            college.PCIP46,
+            college.PCIP47,
+            college.PCIP48,
+            college.PCIP49,
+            college.PCIP50,
+            college.PCIP51,
+            college.PCIP52,
+            college.PCIP54,
+            college.UGDS,
+            college.CONTROL,
+            college.HBCU,
+            college.MENONLY,
+            college.WOMENONLY,
+            college.ICLEVEL,
+            college.ENDOWBEGIN,
+            college.PFTFAC,
+            college.HIGHDEG,
+            college.RELAFFIL,
+            college.FEMALE
+        );
+        //COST
+        let tempCostScore = costScore(
+            individual.costPrefs.costImportance,
+            individual.costPrefs.prefCOA,
+            college.COSTT4_A,
+            individual.costPrefs.income,
+            college.MEDIAN_HH_INC,
+            individual.costPrefs.federalAidImportance,
+            college.PCTPELL,
+            college.PCTFLOAN
+        );
+        //LOCATION
+        let tempLocationScore = locationScore(
+            individual.locationPrefs.locationImportance,
+            individual.locationPrefs.prefCity,
+            college.CITY,
+            individual.locationPrefs.prefState,
+            college.STABBR,
+            individual.locationPrefs.curState,
+            individual.locationPrefs.prefRegion,
+            college.REGION,
+            individual.locationPrefs.livingAtHome,
+            individual.locationPrefs.prefLocale,
+            college.LOCALE,
+            individual.locationPrefs.prefSummerClimate,
+            individual.locationPrefs.prefWinterClimate,
+            college.ZIP
+        );
+        //SUCCESS
+        let tempSuccessScore = successScore(
+            individual.successPrefs.successImportance,
+            individual.successPrefs.retentionRateImportance,
+            individual.successPrefs.prefRetentionRate,
+            college.RET_FT4,
+            individual.successPrefs.graduationRateImportance,
+            individual.successPrefs.prefGraduationRate,
+            college.COMP_ORIG_YR4_RT,
+            individual.successPrefs.alumniCarreerImportance,
+            individual.successPrefs.desiredEarnings,
+            college.MD_EARN_WNE_P6,
+            college.ADM_RATE
+        );
+        let totalScore =
+            individual.weights.costWeight * tempCostScore +
+            individual.weights.locationWeight * tempLocationScore +
+            individual.weights.successWeight * tempSuccessScore +
+            individual.weights.collegeWeight * tempCollegeScore +
+            Math.random();
+        //MATH.random() to ensure no duplicate keys
+        let pos = lists.reaches.indexOf(col);
+        reachesArr[pos] = totalScore;
+        await doAsyncWork(totalScore); //stalls insertion until done with loop
+    });
+    //ADDS REACH SCORES TO MONGODB
+    await Promise.all(lists.reaches.map((col) => doAsyncWork(col))).then(() => {
+        // Create a new document with the array field
+        lists.set("fr", reachesArr);
+
+        // Save the document to the database
+        lists.save(function (error) {
+            if (error) {
+                console.log(error);
+            } else {
+                console.log("Document saved successfully!");
+            }
+        });
+    });
+}
+
+module.exports = { rankCols: rankCols, Individual: Individual };
