@@ -12,7 +12,7 @@ app.get("/process/:id", async (req, res) => {
         const applicant1 = await applicantImps.applicant(id);
         const rank2 = await rankImps.rankCols(id);
         const final3 = await finalImps.final(id);
-        res.json("Enjoy <3"); //TEMPORARY OUTPUT
+        res.json(final3); //TEMPORARY OUTPUT
     } catch (error) {
         console.error(error);
         res.status(500).send("Error fetching item");

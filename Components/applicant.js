@@ -228,6 +228,9 @@ const Lists = mongoose.model(
         fs: [Number],
         ft: [Number],
         fr: [Number],
+        finalSafeties: [String],
+        finalTargets: [String],
+        finalReaches: [String],
         finalListSTR: [String],
     },
     "individual_data"

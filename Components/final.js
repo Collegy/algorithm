@@ -82,6 +82,12 @@ async function final(i_d) {
         ...getFinalReaches,
     ];
     lists.set("finalListSTR", tempFinalListSTR);
+    getFinalSafeties.splice(getFinalSafeties.indexOf("Safeties"), 1);
+    getFinalTargets.splice(getFinalTargets.indexOf("Targets"), 1);
+    getFinalReaches.splice(getFinalReaches.indexOf("Reaches"), 1);
+    lists.set("finalSafeties", getFinalSafeties);
+    lists.set("finalTargets", getFinalTargets);
+    lists.set("finalReaches", getFinalReaches);
     //MUST USE SAVE OR UPDATEONE/MANY FUNCTIONS WHEN SETTING A NOSQL LIST
     lists.save(function (error) {
         if (error) {
@@ -90,6 +96,11 @@ async function final(i_d) {
             console.log("Document saved successfully!");
         }
     });
+    return {
+        safeties: getFinalSafeties,
+        targets: getFinalTargets,
+        reaches: getFinalReaches,
+    };
 }
 
 module.exports = { final: final };
